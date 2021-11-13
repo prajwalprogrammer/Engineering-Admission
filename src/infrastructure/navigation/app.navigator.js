@@ -1,14 +1,35 @@
-import React from 'react'
+import React, { useContext } from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
 import Ionicons from "@expo/vector-icons/Ionicons";
 
-import { View, Text } from 'react-native'
-import ResturantsScreen from '../../features/resturants/screens/resturants.screen'
-import RestaurantNavigator from './restaurant.navigator';
-import { MapScreen } from '../../features/map/screens/map.screen';
+import { View, Text } from "react-native";
+import ResturantsScreen from "../../features/resturants/screens/resturants.screen";
+import RestaurantNavigator from "./restaurant.navigator";
+import { MapScreen } from "../../features/map/screens/map.screen";
+import { SafeArea } from "../../components/utility/safe-area.component";
+import { Button } from "react-native-paper";
+import { AuthenticationContext } from "../../services/authentication/authentication.context";
+import {
+  FavouriteContext,
+  FavouriteContextProvider,
+} from "../../services/favourite/favourite.context";
+import {
+  LocationContext,
+  LocationContextProvider,
+} from "../../services/location/location.context";
+import { RestaurantContextProvider } from "../../services/restaurant/restaurant.context";
 const Tab = createBottomTabNavigator();
-const Setting = () => <Text>Setting</Text>;
+const Setting = () => {
+  const { onLogout } = useContext(AuthenticationContext);
+
+  return (
+    <SafeArea>
+      <Text>Setting</Text>
+      <Button onPress={() => onLogout()}>Logout</Button>
+    </SafeArea>
+  );
+};
 const TAB_ICON = {
   Resturant: "md-restaurant",
   Map: "md-map",
@@ -23,8 +44,10 @@ const createScreenOptions = ({ route }) => {
   };
 };
 const AppNavigation = () => {
-    return (
-        <NavigationContainer>
+  return (
+    <FavouriteContextProvider>
+      <LocationContextProvider>
+        <RestaurantContextProvider>
           <Tab.Navigator
             screenOptions={createScreenOptions}
             tabBarOptions={{
@@ -36,8 +59,10 @@ const AppNavigation = () => {
             <Tab.Screen name="Map" component={MapScreen} />
             <Tab.Screen name="Settings" component={Setting} />
           </Tab.Navigator>
-        </NavigationContainer>
-    )
-}
+        </RestaurantContextProvider>
+      </LocationContextProvider>
+    </FavouriteContextProvider>
+  );
+};
 
-export default AppNavigation
+export default AppNavigation;

@@ -6,7 +6,7 @@ import { LocationContext } from "../../../services/location/location.context";
 const SearchContainer = styled(View)`
   padding: ${(props) => props.theme.space[3]};
 `;
-const Search = () => {
+const Search = ({isFavouriteToggle,onFavouriteToggle}) => {
   const { search, keyword } = useContext(LocationContext);
   const [searchTerm, setSearchTerm] = useState(keyword);
   useEffect(() => {
@@ -15,6 +15,8 @@ const Search = () => {
   return (
     <SearchContainer>
       <Searchbar
+      icon={isFavouriteToggle?"heart":"heart-outline"}
+      onIconPress={onFavouriteToggle}
       placeholder="Search for a location"
         value={searchTerm}
         onSubmitEditing={() => search(searchTerm)}

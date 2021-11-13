@@ -1,19 +1,30 @@
 import { StatusBar } from "expo-status-bar";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ThemeProvider } from "styled-components/native";
-import ResturantsScreen from "./src/features/resturants/screens/resturants.screen";
 import { theme } from "./src/infrastructure/theme";
+import * as firebase from "firebase/app";
 
 import {
   useFonts as useOswald,
   Oswald_400Regular,
 } from "@expo-google-fonts/oswald";
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
-import { Text } from "react-native";
-import { restaurantRequest } from "./src/services/restaurant/restaurant.services";
-import { RestaurantContextProvider } from "./src/services/restaurant/restaurant.context";
-import { LocationContextProvider } from "./src/services/location/location.context";
 import Navigation from "./src/infrastructure/navigation";
+import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
+
+export const firebaseConfig = {
+  apiKey: "AIzaSyCZ1CBSzaR1eiICnxwMh19Ow97jn8JrDpQ",
+  authDomain: "mealstogo-10013.firebaseapp.com",
+  projectId: "mealstogo-10013",
+  storageBucket: "mealstogo-10013.appspot.com",
+  messagingSenderId: "1075339376586",
+  appId: "1:1075339376586:web:123a994e982c60661b8133",
+};
+
+// Initialize Firebase
+if (!firebase.getApps().length) {
+}
+export const initialize = firebase.initializeApp(firebaseConfig);
 
 export default function App() {
   const [oswaldLoaded] = useOswald({
@@ -26,15 +37,13 @@ export default function App() {
   if (!oswaldLoaded || !latoLoaded) {
     return null;
   }
-  restaurantRequest();
+
   return (
     <>
       <ThemeProvider theme={theme}>
-        <LocationContextProvider>
-          <RestaurantContextProvider>
-            <Navigation />
-          </RestaurantContextProvider>
-        </LocationContextProvider>
+        <AuthenticationContextProvider>
+          <Navigation />
+        </AuthenticationContextProvider>
       </ThemeProvider>
 
       <StatusBar style="auto" />

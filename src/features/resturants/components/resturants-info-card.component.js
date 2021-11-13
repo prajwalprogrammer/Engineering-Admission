@@ -17,6 +17,7 @@ import {
   Icon,
   Address,
 } from "./resturant-info-card-style.js";
+import { Favourite } from "../../../components/favourite/favourite.component";
 
 const ResturantsInfoCard = (resturant) => {
  
@@ -32,7 +33,10 @@ const ResturantsInfoCard = (resturant) => {
   } = resturant.resturant;
   const ratingArray = Array.from(new Array(Math.floor(rating)));
   return (
-    <ResturantCard>
+    <ResturantCard elevation={5}>
+      
+      <Favourite restaurant={resturant.resturant} />
+      
       <ResturantCardCover
         elevation={15}
         style={{}}
