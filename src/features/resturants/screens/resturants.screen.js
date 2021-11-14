@@ -15,6 +15,7 @@ import { ActivityIndicator, Colors } from "react-native-paper";
 import Search from "../components/search.component";
 import FavouriteBar from "../../../components/favourite/favouritebar.component";
 import { FavouriteContext } from "../../../services/favourite/favourite.context";
+import FadeInView from "../../../components/animations/fade.animation";
 const SafeArea = styled(SafeAreaView)`
   flex: 1;
   margin-top: ${Constants.statusBarHeight}px;
@@ -54,7 +55,9 @@ const ResturantsScreen = ({ navigation }) => {
               navigation.navigate("ResturantDetails", { restaurant: item })
             }
           >
+            <FadeInView>
             <ResturantsInfoCard resturant={item} />
+            </FadeInView>
           </TouchableOpacity>
         )}
         data={restaurants}

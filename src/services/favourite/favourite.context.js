@@ -36,7 +36,6 @@ export const FavouriteContextProvider = ({ children }) => {
 
   useEffect(() => {
     if (user) {
-      
       loadFavourite(user.uid);
     }
   }, [user]);
