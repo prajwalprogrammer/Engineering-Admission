@@ -2,7 +2,7 @@
   "expo": {
     "name": "MealToGo",
     "slug": "MealToGo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,18 +13,19 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.prajwalprogrammer.MealToGo",
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyD6eT3tiR7BNC2HZIFEOgy4RbToL3Qbzg4" }
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       }
     }
-  
   }
 }
