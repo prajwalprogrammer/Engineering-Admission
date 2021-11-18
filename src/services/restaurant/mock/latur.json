@@ -1,0 +1,122 @@
+{
+    "html_attributions": [],
+    "next_page_token": "some token",
+    "results": [
+      {
+        "geometry": {
+          "location": {
+            "lat": 18.4175714826076,
+            "lng":  76.56135246090803
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipP0uy_OQX1KbDGQj85vKpxNh6rtrdkrbpgJ5J8X=w408-h306-k-no",
+        "name": "Maharashtra College of Engineering Non NBA College",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "C",
+        "dte_code":2129,
+        "status": "private",
+        "vicinity": "Main Road, beside Bus Stop, Nilanga, Maharashtra 413521"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":18.406299047070245, 
+            "lng":  76.52076582634723 
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipMvWFNS7DtDqI_sOohkhmXkUvSOiU-eCvHurOPf=w426-h240-k-no",
+        "name": "M S Bidve Engineering College latur",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "AAA",
+        "status": "Non-Autonomous",
+        "website":"www.msbecl.ac.in",
+        "phone_no":221255,
+        "email":"principal@msbecl.ac.in",
+        "dte_code":2129,
+        "vicinity": "Barshi Rd, Pakharsangvi, Latur, Maharashtra 413531"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": 18.38820069783808, 
+            "lng":  76.47638928402021
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipMd3Hb2d2LQ8vq1Jq32PCVr55dYSsk1Q2JAVEaA=w408-h306-k-no",
+        "name": "Vilasrao Deshmukh Foundation VDF School of Engineering & Technology Latur",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "B",
+        "dte_code":2129,
+        "status": "private",
+        "vicinity": "MIDC, Educity, Additional, Barshi - Latur Hwy, Latur, Maharashtra 413531"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":18.40625800734058,
+            "lng":   77.10303349751067 
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipNJgv_roZv52naNhA52NfHc7LO95CLIOwawvHSn=w408-h306-k-no",
+        "name": "Maharashtra Udayagiri Mahavidyalaya Udgir",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "B",
+        "status": "private",
+        "dte_code":2129,
+        "vicinity": "Dist, Udgir, Maharashtra 413517"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": 18.42828303811175, 
+            "lng":  76.64514075518419
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOTPy858MPkywoOYeEukU8UnIjOMLgVwVAAyZyS=w408-h544-k-no",
+        "name": "Sandipani Technical Campus",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "C",
+        "status": "private",
+        "dte_code":2129,
+        "vicinity": "Kolpa, Nanded Rod, Latur, Maharashtra 413512"
+      }
+
+
+    ],
+    "status": "OK"
+  }

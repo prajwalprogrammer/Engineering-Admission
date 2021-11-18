@@ -15,13 +15,13 @@ export const MapScreen = ({ navigation }) => {
   const { location } = useContext(LocationContext);
   const { restaurants = [] } = useContext(RestaurantContext);
   const [latDelta, setLatDelta] = useState(0);
-  const { viewport, lat, lng } = location;
+  const {  lat, lng } = location;
   useEffect(() => {
-    const northeast = viewport.northeast.lat;
-    const southeast = viewport.southwest.lat;
+    // const northeast = viewport.northeast.lat;
+    // const southeast = viewport.southwest.lat;
 
-    setLatDelta(northeast - southeast);
-  }, [location, viewport]);
+    // setLatDelta(northeast - southeast);
+  }, [location]);
   return (
     <>
       <Search />
@@ -29,7 +29,7 @@ export const MapScreen = ({ navigation }) => {
         region={{
           latitude: lat,
           longitude: lng,
-          latitudeDelta: latDelta,
+          latitudeDelta: 0.2,
           longitudeDelta: 0.02,
         }}
       >

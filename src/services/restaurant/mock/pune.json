@@ -1,439 +1,657 @@
 {
-    "html_attributions": [],
-    "next_page_token": "some token",
-    "results": [
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.529463868678086,
-            "lng":  73.85657318374943
-          }
-        },
-        "ix": "https://lh5.googleusercontent.com/p/AF1QipMvrh2Pvrxj0XCSvnvfAj2k_DJ5ju4mX1wWqZan=w408-h544-k-no",
-        "name": "College Of Engineering Pune",
-        "photos": [
-          {
-            "height": 3672,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 6786
-          }
-        ],
-        "rating": "AAAA",
-        "status":"Government",
-        "vicinity": "Wellesley Rd, Shivajinagar, Pune, Maharashtra 411005"
+  "html_attributions": [],
+  "next_page_token": "some token",
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.529463868678086,
+          "lng": 73.85657318374943
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.457849279664725,
-            "lng":  73.85752504882495
-          }
-        },
-        "icon": "https://images.shiksha.com/mediadata/images/1488265701php44QPnK.jpeg",
-        "name": "Bharati Vidyapeeth Deemed University College of Engineering",
-        
-        "photos": [
-          {
-            "height": 2322,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 4128
-          }
-        ],
-         "rating": "AAAA",
-        "status":"Private",
-        "vicinity": "Bharati Vidyapeeth Campus, Dhankawadi, Pune, Maharashtra 411043"
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipMvrh2Pvrxj0XCSvnvfAj2k_DJ5ju4mX1wWqZan=w408-h544-k-no",
+      "name": "College Of Engineering Pune",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "AAAA",
+      "fee_structure":[
+        "https://drive.google.com/file/d/1O5__YqRMtZihn1yYrhyJNchCjtzu78V4/view?usp=sharing",
+        "https://drive.google.com/file/d/1UFf7I2u59sZ4i9QGwwsbzL7ad-UwlwJI/view?usp=sharing"
+      ],
+      "status": "Government",
+      "vicinity": "Wellesley Rd, Shivajinagar, Pune, Maharashtra 411005"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.457849279664725,
+          "lng": 73.85752504882495
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.46377453589776, 
-            "lng":  73.8682466125844
-          }
-        },
-        "icon": "https://lh5.googleusercontent.com/p/AF1QipOOjreWWp7-ZSXRJDdwOrGTah467dkvhJ5SsdcR=w408-h306-k-no",
-        "name": "Vishwakarma Institute of Technology",
-        
-        "photos": [
-          {
-            "height": 2322,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 4128
-          }
-        ],
-         "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "666, Upper Market Rd, Upper Indira Nagar, Bibwewadi, Pune, Maharashtra 411037"
+      "icon": "https://images.shiksha.com/mediadata/images/1488265701php44QPnK.jpeg",
+      "name": "Bharati Vidyapeeth Deemed University College of Engineering",
+
+      "photos": [
+        {
+          "height": 2322,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 4128
+        }
+      ],
+      "rating": "AAAA",
+      "status": "Private",
+      "vicinity": "Bharati Vidyapeeth Campus, Dhankawadi, Pune, Maharashtra 411043"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.46377453589776,
+          "lng": 73.8682466125844
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.531302330565076, 
-            "lng":  73.86586334514016
-          }
-        },
-        "icon": "https://lh5.googleusercontent.com/p/AF1QipOh_F5WDyWt1ahFhWxUQo4ETeFck1z5IzwblWkT=w408-h306-k-no",
-        "name": "AISSMS College of Engineering",
-        
-        "photos": [
-          {
-            "height": 2322,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 4128
-          }
-        ],
-         "rating": "AAA",
-        "status":"Private",
-        "vicinity": "No. 1, Kennedy Road, Near RTO Office Sangamvadi, Shivajinagar, Pune, Maharashtra 411001"
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipOOjreWWp7-ZSXRJDdwOrGTah467dkvhJ5SsdcR=w408-h306-k-no",
+      "name": "Vishwakarma Institute of Technology",
+
+      "photos": [
+        {
+          "height": 2322,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 4128
+        }
+      ],
+      "rating": "AAA+",
+      "status": "Private",
+      "vicinity": "666, Upper Market Rd, Upper Indira Nagar, Bibwewadi, Pune, Maharashtra 411037"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.531302330565076,
+          "lng": 73.86586334514016
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.517978001040156,  
-            "lng":  73.81488259724166
-          }
-        },
-        "icon": "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/3859/2018/8/22/1-Maharashtra-Institute-of-Technology-Pune-(1).jpg",
-        "name": "MIT WPU Faculty of Engineering, Pune",
-        
-        "photos": [
-          {
-            "height": 2322,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 4128
-          }
-        ],
-         "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "Survey No, 124, Paud Rd, Kothrud, Pune, Maharashtra 411038"
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipOh_F5WDyWt1ahFhWxUQo4ETeFck1z5IzwblWkT=w408-h306-k-no",
+      "name": "AISSMS College of Engineering",
+
+      "photos": [
+        {
+          "height": 2322,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 4128
+        }
+      ],
+      "rating": "AAA",
+      "status": "Private",
+      "vicinity": "No. 1, Kennedy Road, Near RTO Office Sangamvadi, Shivajinagar, Pune, Maharashtra 411001"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.517978001040156,
+          "lng": 73.81488259724166
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.468050176992865,   
-            "lng":  73.83564226630652
-          }
-        },
-        "icon": "https://lh5.googleusercontent.com/p/AF1QipPRueNfkmcUtgfEU4zYa0m_4rJEBQMWTP7bN5WS=w408-h543-k-no",
-         "name": "Sinhgad College of Engineering, Pune",
-        
-        "photos": [
-          {
-            "height": 2322,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 4128
-          }
-        ],
-         "rating": "AAA",
-        "status":"Private",
-        "vicinity": "S. No. 44/1, Off, Sinhgad Rd, Vadgaon Budruk, Pune, Maharashtra 411041"
+      "icon": "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/3859/2018/8/22/1-Maharashtra-Institute-of-Technology-Pune-(1).jpg",
+      "name": "MIT WPU Faculty of Engineering, Pune",
+
+      "photos": [
+        {
+          "height": 2322,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 4128
+        }
+      ],
+      "rating": "AAA+",
+      "status": "Private",
+      "vicinity": "Survey No, 124, Paud Rd, Kothrud, Pune, Maharashtra 411038"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.468050176992865,
+          "lng": 73.83564226630652
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat":18.652217783310707,   
-            "lng":  73.76167261462479
-          }
-        },
-        "icon": "https://lh5.googleusercontent.com/p/AF1QipOrGBZBFqsMtrcg3e2DA4zkaZ5wNgfNyUN4xcXW=w408-h306-k-no",
-        "name": "Pimpri Chinchwad College of Engineering",
-        
-        "photos": [
-          {
-            "height": 2322,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 4128
-          }
-        ],
-         "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "निगडी मार्ग, near Akurdi Railway Station Road, Sector No. 26, Pradhikaran, Nigdi, Pimpri-Chinchwad, Maharashtra 411044"
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipPRueNfkmcUtgfEU4zYa0m_4rJEBQMWTP7bN5WS=w408-h543-k-no",
+      "name": "Sinhgad College of Engineering, Pune",
+
+      "photos": [
+        {
+          "height": 2322,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 4128
+        }
+      ],
+      "rating": "AAA",
+      "status": "Private",
+      "vicinity": "S. No. 44/1, Off, Sinhgad Rd, Vadgaon Budruk, Pune, Maharashtra 411041"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.652217783310707,
+          "lng": 73.76167261462479
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.45972191631372,
-            "lng": 73.88564307395848
-          }
-        },
-        "icon": "https://lh5.googleusercontent.com/p/AF1QipP1NlBNPXWsvvEGRpQoViEPfv9dOU02PSxcRs3Z=w408-h503-k-no",
-        "name": " Vishwakarma Institute of Information Technology",
-        "photos": [
-          {
-            "height": 576,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-       
-        "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "Survey No. 2/3/4, VIM Private Rd Kapil Nagar, Kondhwa Pune, Maharashtra 411048"
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipOrGBZBFqsMtrcg3e2DA4zkaZ5wNgfNyUN4xcXW=w408-h306-k-no",
+      "name": "Pimpri Chinchwad College of Engineering",
+
+      "photos": [
+        {
+          "height": 2322,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 4128
+        }
+      ],
+      "rating": "AAA+",
+      "status": "Private",
+      "vicinity": "निगडी मार्ग, near Akurdi Railway Station Road, Sector No. 26, Pradhikaran, Nigdi, Pimpri-Chinchwad, Maharashtra 411044"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.45972191631372,
+          "lng": 73.88564307395848
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.62340863334827,
-            "lng": 73.8164705083506
-          }
-        },
-        "icon": "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/3574/2018/7/17/Dr-DY-Patil-Institute-of-Technology-Pune-Campus1.jpg",
-        "name": "Dr DY Patil Institute of Technology",
-        "photos": [
-          {
-            "height": 576,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-       
-        "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "Sant Tukaram Nagar, Pimpri Colony, Pune, Maharashtra 411018"
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipP1NlBNPXWsvvEGRpQoViEPfv9dOU02PSxcRs3Z=w408-h503-k-no",
+      "name": " Vishwakarma Institute of Information Technology",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAA+",
+      "status": "Private",
+      "vicinity": "Survey No. 2/3/4, VIM Private Rd Kapil Nagar, Kondhwa Pune, Maharashtra 411048"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.62340863334827,
+          "lng": 73.8164705083506
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.645819211140566, 
-            "lng": 73.75784317711098
-          }
-        },
-        "icon": "https://lh5.googleusercontent.com/p/AF1QipPxiUItFvkFV1a6FN8mqHgUIzjn479b9aKosjfS=w478-h240-k-no",
-        "name": "DY Patil College of Engineering, Pune",
-        "photos": [
-          {
-            "height": 576,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-       
-        "rating": "AAA",
-        "status":"Private",
-        "vicinity": "Sector 29, Nigdi, Pradhikaran, Pimpri-Chinchwad, near Akurdi Railway Station, Pune, Maharashtra 411044"
+      "icon": "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/3574/2018/7/17/Dr-DY-Patil-Institute-of-Technology-Pune-Campus1.jpg",
+      "name": "Dr DY Patil Institute of Technology",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAA+",
+      "status": "Private",
+      "vicinity": "Sant Tukaram Nagar, Pimpri Colony, Pune, Maharashtra 411018"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.645819211140566,
+          "lng": 73.75784317711098
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.457542087445734, 
-            "lng":  73.85086578374835
-          }
-        },
-        "icon": "https://img.collegepravesh.com/2017/02/PICT-Pune.jpg",
-        "name": "SCTR's Pune Institute of Computer Technology",
-        "photos": [
-          {
-            "height": 576,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-       
-        "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "Survey No. 27, Near, Trimurti Chowk, Bharati Vidyapeeth Campus, Dhankawadi, Pune, Maharashtra 411043"
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipPxiUItFvkFV1a6FN8mqHgUIzjn479b9aKosjfS=w478-h240-k-no",
+      "name": "DY Patil College of Engineering, Pune",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAA",
+      "status": "Private",
+      "vicinity": "Sector 29, Nigdi, Pradhikaran, Pimpri-Chinchwad, near Akurdi Railway Station, Pune, Maharashtra 411044"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.457542087445734,
+          "lng": 73.85086578374835
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.486206914974368,  
-            "lng": 73.81633332792832
-          }
-        },
-        "icon": "https://mtinews.in/assets/media/MKSSS_Cummins_College_of_Engineering_for_Women1.jpg",
-        "name": "Cummins College of Engineering for Women, Pune ",
-        "photos": [
-          {
-            "height": 576,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-       
-        "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "Cummins College Rd, Karve Nagar, Pune, Maharashtra 411052"
+      "icon": "https://img.collegepravesh.com/2017/02/PICT-Pune.jpg",
+      "name": "SCTR's Pune Institute of Computer Technology",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAA+",
+      "status": "Private",
+      "vicinity": "Survey No. 27, Near, Trimurti Chowk, Bharati Vidyapeeth Campus, Dhankawadi, Pune, Maharashtra 411043"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.486206914974368,
+          "lng": 73.81633332792832
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.486206914974368,  
-            "lng": 73.81633332792832
-          }
-        },
-        "icon": "https://mtinews.in/assets/media/MKSSS_Cummins_College_of_Engineering_for_Women1.jpg",
-        "name": "Cummins College of Engineering for Women, Pune ",
-        "photos": [
-          {
-            "height": 576,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-       
-        "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "Cummins College Rd, Karve Nagar, Pune, Maharashtra 411052"
+      "icon": "https://mtinews.in/assets/media/MKSSS_Cummins_College_of_Engineering_for_Women1.jpg",
+      "name": "Cummins College of Engineering for Women, Pune ",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAA+",
+      "status": "Private",
+      "vicinity": "Cummins College Rd, Karve Nagar, Pune, Maharashtra 411052"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.60702036156114,
+          "lng": 73.87512624652483
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.486206914974368,  
-            "lng": 73.81633332792832
-          }
-        },
-        "icon": "https://mtinews.in/assets/media/MKSSS_Cummins_College_of_Engineering_for_Women1.jpg",
-        "name": "Cummins College of Engineering for Women, Pune ",
-        "photos": [
-          {
-            "height": 576,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-       
-        "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "Cummins College Rd, Karve Nagar, Pune, Maharashtra 411052"
+      "icon": "https://i.ytimg.com/vi/4T8aqdhbWto/maxresdefault.jpg",
+      "name": "Army Institute of Technology ",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAAA",
+      "status": "Private Autonomous",
+      "vicinity": "Alandi Rd, Dighi, Pune, Maharashtra 411015"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat":18.541343875200443, 
+          "lng": 73.72789661285921 
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.486206914974368,  
-            "lng": 73.81633332792832
-          }
-        },
-        "icon": "https://mtinews.in/assets/media/MKSSS_Cummins_College_of_Engineering_for_Women1.jpg",
-        "name": "Cummins College of Engineering for Women, Pune ",
-        "photos": [
-          {
-            "height": 576,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-       
-        "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "Cummins College Rd, Karve Nagar, Pune, Maharashtra 411052"
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipOdEsKqjjRvBIR8kUESbjx0IvHTR8XtaIt2sTOf=w408-h306-k-no",
+      "name": "Symbiosis Institute of Technology | SIT Pune ",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAAA",
+      "status": "Private",
+      "vicinity": "Symbiosis International University Near Lupin Research Park, Gram: Lavale, Tal:, Mulshi, Maharashtra 412115"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat":18.519473891217586,  
+          "lng": 73.81485443317908
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.486206914974368,  
-            "lng": 73.81633332792832
-          }
-        },
-        "icon": "https://mtinews.in/assets/media/MKSSS_Cummins_College_of_Engineering_for_Women1.jpg",
-        "name": "Cummins College of Engineering for Women, Pune ",
-        "photos": [
-          {
-            "height": 576,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-       
-        "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "Cummins College Rd, Karve Nagar, Pune, Maharashtra 411052"
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipPZwuPuMgqDx_6O5yf-3oyrA0_UciSnT_VJ2VH-=w408-h258-k-no",
+      "name": " MIT College of Engineering Khothrud",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAA",
+      "status": "Private",
+      "vicinity": "Survey No. 124, Paud Road, MIT College Campus Ex, Shivtirthanagar, Kothrud, Pune, Maharashtra 411038"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat":18.49024726231133, 
+          "lng":73.85262389936825 
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.486206914974368,  
-            "lng": 73.81633332792832
-          }
-        },
-        "icon": "https://mtinews.in/assets/media/MKSSS_Cummins_College_of_Engineering_for_Women1.jpg",
-        "name": "Cummins College of Engineering for Women, Pune ",
-        "photos": [
-          {
-            "height": 576,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-       
-        "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "Cummins College Rd, Karve Nagar, Pune, Maharashtra 411052"
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipPpNcd__6x_7lP-D5iNqgJqJt2m8cFl1SsNfMql=w408-h544-k-no",
+      "name": "PVGCOET Pune - PVG’s College of Engineering and Technology and GK Pate Wani Institute of Management",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAA",
+      "status": "Private",
+      "vicinity": "Pune Vidhyarthi Grihas College Of Engineering And Technology, 44, Shiv Darshan Rd, Parvati, विद्या नगरी, Vidya Nagari, Parvati Paytha, Pune, Maharashtra 411009"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat":18.61998523625009, 
+          "lng": 73.74994754169694
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat": 18.486206914974368,  
-            "lng": 73.81633332792832
-          }
-        },
-        "icon": "https://mtinews.in/assets/media/MKSSS_Cummins_College_of_Engineering_for_Women1.jpg",
-        "name": "Cummins College of Engineering for Women, Pune ",
-        "photos": [
-          {
-            "height": 576,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-       
-        "rating": "AAA+",
-        "status":"Private",
-        "vicinity": "Cummins College Rd, Karve Nagar, Pune, Maharashtra 411052"
-      }
-     
-    ],
-    "status": "OK"
-  }
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipNJELcor07m1zQnPf-XTuO26Wt5QuHOoPAZTrGg=w408-h306-k-no",
+      "name": "JSPM Rajarshi shahu college of engineering , Tathawade",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAAA",
+      "status": "PRIVATE AUTONOMOUS",
+      "vicinity": "JSPM Rajarshi shahu college of engineering , Tathawade, Service Rd, Ashok Nagar, Tathawade, Pimpri-Chinchwad, Maharashtra 411033"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat":18.58515498230593, 
+          "lng": 73.73779232635
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipNByeDfPMm5zNOFbtQLvNVFt4VkmntsSJVrcUai=w408-h272-k-no",
+      "name": "International Institute of Information Technology (I Square IT)",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAA+",
+      "status": "PRIVATE AUTONOMOUS",
+      "vicinity": "P-14, Phase 1, Hinjewadi Rajiv Gandhi Infotech Park, Hinjawadi, Pune, Maharashtra 411057"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat":18.44155274413053,
+          "lng":  73.83177045518443
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipNWQztEDO0IEl6sJ9wkSM8enM5HIyanD-dSSpZc=w408-h271-k-no",
+      "name": "JSPM Narhe Technical Campus, Pune",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "B++",
+      "status": "PRIVATE",
+      "vicinity": "Survey No. 12/2/2 & 14/9, Pune Bangalore Highway, Taluka Haveli, Narhe, Pune, Maharashtra 411041"
+    },
+    
+    {
+      "geometry": {
+        "location": {
+          "lat": 18.555156643031005,
+          "lng": 73.96123802634955
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipO4VAdn2_db99tTcFbIzB5_u53ePO3hIA5rNVGQ=w508-h240-k-no",
+      "name": "DPCOE - Dhole Patil College Of Engineering Pune",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "A+",
+      "status": "PRIVATE",
+      "vicinity": "Dhole Patil, Survey No 1284 College Road Near Eon IT Park Road Vitthal Nagar, Wagholi, Kharadi, Pune, Maharashtra 412207"
+    },
+    
+    {
+      "geometry": {
+        "location": {
+          "lat":18.53492751292496,
+          "lng":  73.88045253983944
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipNGIhc9aMK-xKRAmiHW8pDXR5IxUQnGcnLUQ3Fr=w408-h272-k-no",
+      "name": "MESCOE Pune - Modern Education Society's College of Engineering",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "NAAC",
+      "status": "PRIVATE",
+      "vicinity": "19, Late Prin. V.K. Joag Path, Wadia College Campus, Off, Bund Garden Rd, Pune, Maharashtra 411001"
+    },
+    
+    {
+      "geometry": {
+        "location": {
+          "lat":18.490840636826533,
+          "lng":  73.80931689751193
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipPB8SBvPs1CF1UmxhRYERZmdYudEcNgX9DhcrC9=w408-h306-k-no",
+      "name": "Marathwada Mitra Mandal's College of Engineering KARVENAGAR PUNE",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "NAAC A",
+      "status": "PRIVATE",
+      "vicinity": "Sr.No. 18, Plot No. 5/3, CTS No.205, Vadar Vasti Rd, behind Vandevi Temple, Karve Nagar, Pune, Maharashtra 411052"
+    },
+    
+    {
+      "geometry": {
+        "location": {
+          "lat":18.46668655691029, 
+          "lng": 73.83663964169463
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipPXkyq_6cqisr8ypGzH8N_5XJQC9O9wImmm1cX0=w408-h306-k-no",
+      "name": "SKNCOE Vadgaon - Smt Kashibai Navale College of Engineering",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "NAAC",
+      "status": "PRIVATE",
+      "vicinity": "SURVEY NO. 44/1, Gangadhar S Valsepatil Rd, Off OFF SINHGAD ROAD, Vadgaon Budruk, Pune, Maharashtra 411041"
+    },
+    
+    {
+      "geometry": {
+        "location": {
+          "lat":18.64573621592789,
+          "lng":  73.75993649565802
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipO_dvaV0d6VmBJskrrMfHBd0ixURwCkFknoqwd_=w408-h305-k-no",
+      "name": "Dr DY Patil Institute of Engineering Management and Research, Pune",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAA",
+      "status": "PRIVATE",
+      "vicinity": "D. Y. Patil Educational Complex, Akurdi, Sector 29, Ravet Village Rd, Gurudwara Colony, Nigdi, Pimpri-Chinchwad, Maharashtra 411044"
+    },
+    
+    {
+      "geometry": {
+        "location": {
+          "lat":18.442988721202408,
+          "lng":  73.89570734355058
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipNebPhHkg_GLhrAiNJB538Qh2P3cN_WzQMcoZgu=w408-h306-k-no",
+      "name": "Sinhgad Academy of Engineering, Kondhwa",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AA+",
+      "status": "PRIVATE",
+      "vicinity": "Sinhgad academy of engineering, Sinhgad Kondwa, Danny Mehata Nagar, Kondhwa, Pune, Maharashtra 411048"
+    },
+    
+    {
+      "geometry": {
+        "location": {
+          "lat":18.490925261465385,
+          "lng":  73.84338621100208
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipPUWscGOvUWd3bTvOrRv18VXnEoRhKeeAmN6VwY=w408-h306-k-no",
+      "name": "APCOER Pune - ABMSP's Anantrao Pawar College of Engineering and Research",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "NAAC B",
+      "status": "PRIVATE",
+      "vicinity": "Campus, Ramana, S. No. 103, Shahu College Rd, Parvati, Pune, Maharashtra 411009"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat":18.988327932798715,
+          "lng":  73.96353501286609
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipNGdDxZafUA40crS9tzR6SQaGbVWtEGdzydrF3G=w426-h240-k-no",
+      "name": "Government College Of Engineering And Research, Avasari Khurd",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "AAA",
+      "status": "GOVERNMENT AUTONOMOUS",
+      "vicinity": "Avasari - Khurd, Taluka - Ambegaon, Maharashtra 412405"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat":18.499070573255143,
+          "lng":  73.77380990749577
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipMk0BE6mNEyTLMDwlgozfPNCGnOkcNIgVtf1vfh=w408-h272-k-no",
+      "name": "TSSMS's Pd. Vasantdada Patil Institute of Technology, Bavdhan, Pune",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "NAAC",
+      "status": "PRIVATE",
+      "vicinity": "S No 33/22, Pune Pirangut Road, next to Chandani Chowk, Bavdhan, Pune, Maharashtra 411021"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat":18.449587687146845,
+          "lng":  73.82532606681836
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipPS3CYQqCNmqYQnTsa7HH9rP74M9xRHb10gx7U3=w408-h288-k-no",
+      "name": "Zeal College of Engineering and Research",
+      "photos": [
+        {
+          "height": 576,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 1024
+        }
+      ],
+
+      "rating": "NAAC",
+      "status": "PRIVATE",
+      "vicinity": "Zeal College of Engineering and Research"
+    }
+
+
+  ],
+  "status": "OK"
+}

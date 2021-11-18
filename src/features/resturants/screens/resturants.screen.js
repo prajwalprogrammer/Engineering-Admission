@@ -16,6 +16,7 @@ import Search from "../components/search.component";
 import FavouriteBar from "../../../components/favourite/favouritebar.component";
 import { FavouriteContext } from "../../../services/favourite/favourite.context";
 import FadeInView from "../../../components/animations/fade.animation";
+import CollageInfoCard from "../components/CollageInfoCard";
 const SafeArea = styled(SafeAreaView)`
   flex: 1;
   margin-top: ${Constants.statusBarHeight}px;
@@ -37,6 +38,7 @@ const ResturantsScreen = ({ navigation }) => {
   const { restaurants, isLoading, iserror } = useContext(RestaurantContext);
   const {favourites} = useContext(FavouriteContext)
   const [onToggled, setOnToggled] = useState(false);
+ 
   return (
     <SafeArea>
       {isLoading && (
@@ -56,7 +58,7 @@ const ResturantsScreen = ({ navigation }) => {
             }
           >
             <FadeInView>
-            <ResturantsInfoCard resturant={item} />
+              <CollageInfoCard resturant={item} />
             </FadeInView>
           </TouchableOpacity>
         )}

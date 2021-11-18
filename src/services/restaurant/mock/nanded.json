@@ -1,0 +1,70 @@
+{
+    "html_attributions": [],
+    "next_page_token": "some token",
+    "results": [
+    {
+    "geometry": {
+        "location": {
+        "lat": 19.14238596800736, 
+        "lng": 77.3072692190914
+        }
+    },
+    "icon": "https://lh5.googleusercontent.com/p/AF1QipOk4nq9IedbKaNsTPiUO_ht4OMqJ1BTz2eMSGXJ=w408-h408-k-no",
+    "name": "Sggs Vishnupuri Nanded",
+    "photos": [
+        {
+        "height": 3672,
+        "html_attributions": [""],
+        "photo_reference": "",
+        "width": 6786
+        }
+    ],
+    "rating": "A+",
+    "status": "Government aided autonomous",
+    "vicinity": "Vishnupuri Nanded"
+    },
+    {
+        "geometry": {
+            "location": {
+            "lat": 19.179870315764372,
+            "lng":  77.32421616994222
+            }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipPipgmabuZaZ_kZQXepx1vCW4FbhNCK2c0UKo5J=w408-h306-k-no",
+        "name": "MGM's College Of Engineering Nanded ",
+        "photos": [
+            {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+            }
+        ],
+        "rating": "C",
+        "status": "private",
+        "vicinity": "Nanded Bypass Rd, Hingoli Naka, Ambekar Nagar, Nanded-Waghala, Maharashtra 431601"
+        },
+        {
+            "geometry": {
+                "location": {
+                "lat": 19.111063362335898, 
+                "lng": 77.29810288403145
+                }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipNID8B70NrUSU5aTqTKe5Mu9hNpoXQbM1yGCZUD=w426-h240-k-no",
+            "name": "Gramin College of Engineering",
+            "photos": [
+                {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+                }
+            ],
+            "rating": "C",
+            "status": "private",
+            "vicinity": "vishupuri, Trimurti Nagar, 431606, near SGGS college, Nanded, Maharashtra"
+            }
+],
+"status": "OK"
+}

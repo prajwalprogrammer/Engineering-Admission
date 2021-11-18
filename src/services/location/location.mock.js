@@ -57,6 +57,58 @@ export const locations = {
         },
       ],
     },
+    pune: {
+      results: [
+        {
+          geometry: {
+            location: {
+              lat: 18.55518965423586, 
+              lng: 73.84844182703576,
+            },
+            
+          },
+        },
+      ],
+    },
+    mumbai: {
+      results: [
+        {
+          geometry: {
+            location: {
+              lat: 19.079602159944866, 
+              lng: 72.86744202594829
+            },
+            
+          },
+        },
+      ],
+    },
+    latur: {
+      results: [
+        {
+          geometry: {
+            location: {
+              lat: 18.408857532829494, 
+              lng: 76.55924218853866
+            },
+            
+          },
+        },
+      ],
+    },
+    nanded: {
+      results: [
+        {
+          geometry: {
+            location: {
+              lat: 19.141412947311, 
+              lng: 77.32477855057344
+            },
+            
+          },
+        },
+      ],
+    },
     toronto: {
       results: [
         {

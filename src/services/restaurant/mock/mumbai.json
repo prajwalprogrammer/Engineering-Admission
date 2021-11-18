@@ -1,0 +1,260 @@
+{
+    "html_attributions": [],
+    "next_page_token": "some token",
+    "results": [
+      {
+        "geometry": {
+          "location": {
+            "lat":19.02227894485752, 
+            "lng": 72.85606755299355
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOZbilwsJBWYv0_frnXvfcJKcFFyplhbKEUxvYR=w408-h306-k-no",
+        "name": "Veermata Jijabai Technological Institute",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "AAAA",
+        "status": "Public/Government",
+        "vicinity": "H R Mahajani Rd, Matunga, Mumbai, Maharashtra 400019"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.073588505661096 ,
+            "lng": 72.89960967018857
+          }
+        },
+        "icon": "https://images.static-collegedunia.com/public/college_data/images/appImage/1592984683Cover.jpg?tr=c-force",
+        "name": "KJ Somaiya College of Engineering, Mumbai",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "AAA+",
+        "status": "Private",
+        "vicinity": "Vidyanagar, Vidya Vihar East, Ghatkopar East, Mumbai, Maharashtra 400077"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.123400596087677 ,
+            "lng": 72.83608321066693
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipNwhlY31X9VkMEFpV3-yULViDweGZZ5hq0-zZup=w408-h248-k-no",
+        "name": "SPIT Mumbai - Sardar Patel Institute of Technology",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "AAAA",
+        "status": "Private",
+        "vicinity": "Bhavans Campus, Old D N Nagar, Munshi Nagar, Andheri West, Mumbai, Maharashtra 400058"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": 19.021290031258975,
+            "lng": 72.87050318368019
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipNTuz3X8g8baYQeaABi7Esb_Gx5hScyo6n0DJM-=w517-h240-k-no",
+        "name": "VIT Mumbai - Vidyalankar Institute of Technology",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "Private",
+        "vicinity": "Vidyalankar Educational Campus, Vidyalankar College Rd, Wadala East, Deen Bandhu Nagar, Antop Hill, Mumbai, Maharashtra 400037"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": 19.045966392831545,
+            "lng": 72.88926714135232
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOj7Fg62XWQcaUY1wI7IllBXlhUdNfUK-g1_f7m=w426-h240-k-no",
+        "name": "VESIT Mumbai - Vivekanand Education Society's Institute of Technology",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "AAA+",
+        "status": "Private",
+        "vicinity": "Hashu Adwani Memorial Complex, Collector's Colony, Chembur, Mumbai, Maharashtra 400074"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.206158893968922 ,
+            "lng": 72.87461714135499
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipMeipmOb4ZzD2WE91L_QFUoiqi2htOrESCkeaZ9=w408-h433-k-no",
+        "name": "TCET Mumbai - Thakur College of Engineering and Technology",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "AAA",
+        "status": "Private",
+        "vicinity": "A-Block, Thakur Educational Campus, Shyamnarayan Thakur Marg, Thakur Village, Kandivali East, Mumbai, Maharashtra 400101"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.044535819139103, 
+            "lng": 72.82045632785976
+          }
+        },
+        "icon": "https://www.microtec.in/storage/b74f3e53-26aa-46df-b2ed-405c6c51966f/b74f3e53-26aa-46df-b2ed-405c6c51966f-1587573450.jpg",
+        "name": "Fr Conceicao Rodrigues College of Engineering, Mumbai",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "AAA+",
+        "status": "Private",
+        "vicinity": "Fr. Agnel Ashram, Bandstand Promenade, Mount Mary, Bandra West, Mumbai, Maharashtra 400050"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.123915801418462,
+            "lng": 72.83600846648774
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipMOpeAIWEa0LDPkiJTazSI6OPhtdzCl6cu1092o=w408-h306-k-no",
+        "name": "SPCE Mumbai - Sardar Patel College of Engineering",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "AAA+",
+        "status": "Private",
+        "vicinity": "Bhavan's Campus, Bhavans College Rd, Munshi Nagar, Andheri West, Mumbai, Maharashtra 400058"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.046199968078614, 
+            "lng": 72.87124182971056
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipN6Ml3bnGqcWaamVyXGZy91f5ZgK4pF46S8iR2M=w408-h306-k-no",
+        "name": "KJSIEIT Mumbai - KJ Somaiya Institute of Engineering and Information Technology",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "AAA+",
+        "status": "Private",
+        "vicinity": "Somaiya Ayurvihar Complex Eastern Express Highway Near Everard Nagar, Sion East, Mumbai, Maharashtra 400022"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": 19.0645965119452,
+            "lng": 72.83576363765094
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipNbjvYyw4qcOAvZqCYhztMw6y0E_wxEMFG1Ag16=w408-h306-k-no",
+        "name": "TSEC Mumbai - Thadomal Shahani Engineering College",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "AAA+",
+        "status": "Private",
+        "vicinity": "W, P. G. Kher Marg, (32nd Road, Marg, Off Linking Rd, TPS III, Bandra West, Mumbai, Maharashtra 400050"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": 19.075715480988922,
+            "lng": 72.99168283950196
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipMHaNj0sQZMfGSq5qz6-M2x2eCtjXQtOt9yrTGf=w408-h266-k-no",
+        "name": "FCRIT Navi Mumbai - Fr C Rodrigues Institute of Technology",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "AAA+",
+        "status": "Private",
+        "vicinity": "Father Agnel Technical Education Complex, near Noor Masjid, Juhu Nagar, Sector 9A, Vashi, Navi Mumbai, Maharashtra 400703"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": 19.081445834620826, 
+            "lng": 72.88861755484535
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipO9WjaR_58vzwFDx7qro1OTGbvclb4OOW36OjKR=w426-h240-k-no",
+        "name": "DBIT Mumbai - Don Bosco Institute of Technology",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "Private",
+        "vicinity": "Premier Automobiles Road Opp. HDIL Premier Exotica, Kurla, Mumbai, Maharashtra 400070"
+      }
+       ],
+    "status": "OK"
+  }
+  
