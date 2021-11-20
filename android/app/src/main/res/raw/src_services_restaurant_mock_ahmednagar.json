@@ -1,0 +1,184 @@
+{
+    "html_attributions": [],
+    "next_page_token": "some token",
+    "results": [
+      {
+        "geometry": {
+          "location": {
+            "lat":19.577508784580715, 
+            "lng":  74.44562175845293
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipMUl48t5rhZFzK3dpsvlv7wHD95e6_jCBYB98EN=w408-h278-k-no",
+        "name": "Pravara Rural College of Engineering, Loni, Pravaranagar, Ahmednagar.",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "Non-Autonomous",
+        "website":"www.pravaraengg.org.in",
+        "phone_no":273204,
+        "email":"principal.precloni@pravara.in",
+        "dte_code":5139,
+        "vicinity": "Maharastra State Highway 44, Loni, Maharashtra 413736"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.18139171873814, 
+            "lng":  74.68977383940242
+          }
+        },
+        "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTndJFSqhGu3sOIhDnqk6NzK9qRcEBEmHxWlgZoRT6_os_QK-cRrATcGm8PT_L5JARzK9M&usqp=CAU",
+        "name": "Dr. Vithalrao Vikhe Patil College of Engineering, Ahmednagar",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "Non-Autonomous",
+        "website":"www.enggnagar.com",
+        "phone_no":2777296,
+        "email":"prin_coea@yahoo.com",
+        "dte_code":5161,
+        "vicinity": "MIDC, Vilad Ghat, Ahmednagar, Maharashtra 414111"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.042489712983983, 
+            "lng":  74.64501921426478
+          }
+        },
+        "icon": "https://getmyuni.azureedge.net/college-image/big/gh-raisoni-college-of-engineering-and-management-ghrcem-ahmednagar.jpg",
+        "name": "G. H. Raisoni College of Engineering and Management, Ahmednagar",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "Non-Autonomous",
+        "website":"www.ghrcemahm.raisoni.net",
+        "phone_no":2570123,
+        "email":"ghrcemahm@raisoni.net",
+        "dte_code":5176 ,
+        "vicinity": "Gate No.1030, Pune Highway, Village Chass, Jilha Parishad, Ahmednagar, Maharashtra 414008"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.059649259970673, 
+            "lng":  74.81780517008625
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipP1OmFUD9n5orhQj-JIssxtJ-QOFBOHOuPaZLoC=w408-h267-k-no",
+        "name": "Vishwabharati Academy's College of Engineering, Ahmednagar",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "Non-Autonomous",
+        "website":"www.vacoea.com",
+        "phone_no":2660033,
+        "email":"principal_vacoea@yahoo.com",
+        "dte_code":5179,
+        "vicinity": "Sarola Baddi, Jamkhed Road, 1, MH MSH 2, Maharashtra 414201"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.099256611306824, 
+            "lng":  74.66934036823676
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOCI6SL9YqGmI2GGDkuLylVzQqaipjPStgBEQSq=w477-h240-k-no",
+        "name": "Shri. Chhatrapati Shivaji Maharaj College of Engineering, Nepti",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "Non-Autonomous",
+        "website":"www.scoea.org",
+        "phone_no":2568383,
+        "email":"scsmcoe.anr@hotmail.com",
+        "dte_code":5382,
+        "vicinity": "Survey no. 162 & 163, Nepti, Ahmednagar-Kalyan Rd, Ahmednagar, Maharashtra 414005"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.050800505361355,  
+            "lng":74.65221158542913  
+          }
+        },
+        "icon": "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/5066/2020/11/23/Campus%20View%20of%20Adsuls%20Technical%20Campus%20Ahmednagar_Campus-View.jpg",
+        "name": "Adsul's Technical Campus, Chas Dist. Ahmednagar",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "Non-Autonomous",
+        "website":"www.adsulgroup.com",
+        "phone_no":2570428,
+        "email":"adsulstechnicalcampus@gmail.com",
+        "dte_code":5380,
+        "vicinity": "Chas , Nimblak By Pass Road, Ahmednagar, Maharashtra 414005"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.15920325145526, 
+            "lng": 74.34843691056625 
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipPpoNLd_yx2hEookaahK3XjwO-URNfuziJ9F5rx=w426-h240-k-no",
+        "name": "Rajiv Gandhi College of Engineering, At Post Karjule Hariya Tal.Parner, Dist.Ahmednagar",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "Non-Autonomous",
+        "website":"www.rgcoe.org",
+        "phone_no":295101,
+        "email":"rajivgandhi.iot@gmail.com",
+        "dte_code":5409,
+        "vicinity": "TAKALI DHOKESHWAR, TALUKA – PARNER , DISTRICT –AHMEDNAGAR, Karjule Harya, Maharashtra 414304"
+      }
+    
+
+    ],
+    "status": "OK"
+  }

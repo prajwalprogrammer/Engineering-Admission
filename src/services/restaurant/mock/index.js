@@ -6,6 +6,8 @@ import pune from "./pune.json";
 import mumbai from "./mumbai.json";
 import latur from "./latur.json";
 import nanded from "./nanded.json";
+import ahmednagar from "./ahmednagar.json";
+import nashik from "./nashik.json";
 
 export const mocks = {
   "51.219448,4.402464": antwerp,
@@ -15,7 +17,9 @@ export const mocks = {
   "18.55518965423586,73.84844182703576": pune,
   "19.079602159944866,72.86744202594829":mumbai,
   "18.408857532829494,76.55924218853866":latur,
-  "19.141412947311,77.32477855057344":nanded
+  "19.141412947311,77.32477855057344":nanded,
+  "19.16169352033496,74.75435545526827":ahmednagar,
+  "19.99836975850918,73.78768516990837":nashik
 };
 
 export const mockImages = [

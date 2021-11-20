@@ -15,7 +15,7 @@ font-size:${(props) => props.theme.fontSizes.caption}
 const FavouriteBar = ({ favourites, onNavigate }) => {
   return (
     <FavouriteWrapper>
-        <Name>favourites</Name>
+       <Name>favourites</Name>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         {favourites.map((favourite) => {
           const key = favourite.name;

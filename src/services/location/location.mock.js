@@ -109,6 +109,32 @@ export const locations = {
         },
       ],
     },
+    ahmednagar: {
+      results: [
+        {
+          geometry: {
+            location: {
+              lat: 19.16169352033496, 
+              lng: 74.75435545526827
+            },
+            
+          },
+        },
+      ],
+    },
+    nashik: {
+      results: [
+        {
+          geometry: {
+            location: {
+              lat: 19.99836975850918, 
+              lng: 73.78768516990837
+            },
+            
+          },
+        },
+      ],
+    },
     toronto: {
       results: [
         {

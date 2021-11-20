@@ -28,7 +28,7 @@ const Compactrestaurant = ({ restaurant,isMap=true }) => {
   const ImageCover = isAndroid ? isMap?CoverWebview:Cover : Cover;
   return (
     <Info>
-      <ImageCover source={{ uri: restaurant.photos[0] }} />
+      <ImageCover source={{ uri: restaurant.icon }} />
       <Name center varient="caption" numberOfLines={3}>
         {restaurant.name}
       </Name>
