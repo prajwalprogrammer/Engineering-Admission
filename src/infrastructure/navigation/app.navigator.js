@@ -24,7 +24,7 @@ import SettingNavigator from "./settingNavigator";
 const Tab = createBottomTabNavigator();
 
 const TAB_ICON = {
-  Resturant: "md-restaurant",
+  Collage: "ios-school",
   Map: "md-map",
   Settings: "md-settings",
 };
@@ -48,9 +48,9 @@ const AppNavigation = () => {
               inactiveTintColor: "gray",
             }}
           >
-            <Tab.Screen name="Resturant" component={RestaurantNavigator} />
+            <Tab.Screen name="Collage" component={RestaurantNavigator} />
             <Tab.Screen name="Map" component={MapScreen} />
-            <Tab.Screen name="Settings" component={SettingNavigator} />
+            {/* <Tab.Screen name="Settings" component={SettingNavigator} /> */}
           </Tab.Navigator>
         </RestaurantContextProvider>
       </LocationContextProvider>

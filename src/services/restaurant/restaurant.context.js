@@ -33,7 +33,7 @@ export const RestaurantContextProvider = ({ children }) => {
     }
   }, [location]);
   return (
-    <RestaurantContext.Provider value={{ restaurants, isLoading, iserror }}>
+    <RestaurantContext.Provider value={{setRestaurants, restaurants, isLoading, iserror }}>
       {children}
     </RestaurantContext.Provider>
   );

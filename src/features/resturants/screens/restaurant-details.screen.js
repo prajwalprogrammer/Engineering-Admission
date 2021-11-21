@@ -61,7 +61,11 @@ const RestuarantDetails = ({ route, navigation }) => {
         },
         {
           text: "Cap 2",
-          onPress: () => {},
+          onPress: () =>
+          navigation.navigate("pdf", {
+            restaurant: restaurant,
+            course: ["cap2.bundle", course],
+          }),
           style: "default",
         },
       ],

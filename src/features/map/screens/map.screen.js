@@ -16,15 +16,26 @@ export const MapScreen = ({ navigation }) => {
   const { restaurants = [] } = useContext(RestaurantContext);
   const [latDelta, setLatDelta] = useState(0);
   const {  lat, lng } = location;
+  const [collageList, setCollageList] = useState(restaurants);
+  const [searchTerm, setSearchTerm] = useState("");
+  const searchCollage = (term) => {
+    setSearchTerm(term)
+    console.log(term);
+    setCollageList(
+      restaurants.filter((clg) => {
+        return clg.name.toLowerCase().includes(term.toLowerCase());
+      })
+    );
+  };
   useEffect(() => {
-    // const northeast = viewport.northeast.lat;
-    // const southeast = viewport.southwest.lat;
-
-    // setLatDelta(northeast - southeast);
-  }, [location]);
+    setCollageList(restaurants);
+  }, [restaurants]);
   return (
     <>
-      <Search />
+      <Search
+        Search={searchTerm}
+        onSearch={(txt) => searchCollage(txt)}
+      />
       <Map
         region={{
           latitude: lat,
@@ -33,7 +44,7 @@ export const MapScreen = ({ navigation }) => {
           longitudeDelta: 0.02,
         }}
       >
-        {restaurants.map((restaurant) => {
+        {collageList.map((restaurant) => {
           return (
             <MapView.Marker
               key={restaurant.name}

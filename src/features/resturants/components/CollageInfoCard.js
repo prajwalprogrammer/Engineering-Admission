@@ -20,36 +20,46 @@ import {
 import { Favourite } from "../../../components/favourite/favourite.component";
 
 const CollageInfoCard = (resturant) => {
- 
   const {
     name = "Zomato",
     vicinity = "Walmiki Nagar,Latur",
     icon = "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
     rating = 4,
     photos,
-    placeId=12,
-    dteCode
+    placeId = 12,
+    dteCode,
   } = resturant.resturant;
+  const ratingArray =
+    typeof rating == "string"
+      ? rating
+      : Array.from(new Array(Math.floor(rating)));
   return (
     <ResturantCard elevation={5}>
-      
       <Favourite restaurant={resturant.resturant} />
-      
-      <ResturantCardCover
-        elevation={15}
-        style={{}}
-        source={{ uri: icon }}
-      />
+    
+      <ResturantCardCover elevation={15} style={{}} source={{ uri: icon }} />
       <Info>
         <Text varient="label">{name}</Text>
 
         <Section>
-          
+          {typeof rating == "string" ? (
+            <Text varient="error">{ratingArray}</Text>
+          ) : (
+            <Rating>
+              {ratingArray.map((_, i) => (
+                <SvgXml
+                  key={`star-${placeId}-${i}`}
+                  xml={star}
+                  width={20}
+                  height={20}
+                />
+              ))}
+              <Text varient="caption">({rating})</Text>
+            </Rating>
+          )}
           <SectionEnd>
-            
-           
             <Spacer position="left" size="large">
-           {dteCode && <Text varient="hint">{dteCode}</Text>}
+              {dteCode && <Text varient="hint">{dteCode}</Text>}
             </Spacer>
           </SectionEnd>
         </Section>

@@ -19,7 +19,7 @@
           "width": 6786
         }
       ],
-      "rating": "AAAA",
+      "rating": 4.2,
       "fee_structure":[
         "https://drive.google.com/file/d/1O5__YqRMtZihn1yYrhyJNchCjtzu78V4/view?usp=sharing",
         "https://drive.google.com/file/d/1UFf7I2u59sZ4i9QGwwsbzL7ad-UwlwJI/view?usp=sharing"
@@ -49,7 +49,7 @@
           "width": 4128
         }
       ],
-      "rating": "AAAA",
+      "rating": 3.7,
       "status": "Private",
       "website":"coewpune.bharatividyapeeth.edu",
       "phone_no":24371684,
@@ -75,7 +75,7 @@
           "width": 4128
         }
       ],
-      "rating": "AAA+",
+      "rating": 4.1,
       "status": "Private",
       "website":"www.vit.edu",
       "phone_no":24283001,
@@ -101,8 +101,12 @@
           "width": 4128
         }
       ],
-      "rating": "AAA",
+      "rating": 3.7,
       "status": "Private",
+      "website":"www.aissmscoe.com",
+      "phone_no":26058587,
+      "email":"principal@aissmscoe.com",
+      "dte_code":6278,
       "vicinity": "No. 1, Kennedy Road, Near RTO Office Sangamvadi, Shivajinagar, Pune, Maharashtra 411001"
     },
     {
@@ -123,8 +127,12 @@
           "width": 4128
         }
       ],
-      "rating": "AAA+",
+      "rating": 3.8,
       "status": "Private",
+      "website":"www.mitcoe.edu.in",
+      "phone_no":30273400,
+      "email":"principal@mitcoe.edu.in",
+      "dte_code":6148,
       "vicinity": "Survey No, 124, Paud Rd, Kothrud, Pune, Maharashtra 411038"
     },
     {
@@ -171,7 +179,7 @@
           "width": 4128
         }
       ],
-      "rating": "AAA+",
+      "rating": 3.7,
       "status": "Private",
       "website":"www.pccoepune.com",
       "phone_no":27653168,
@@ -197,7 +205,7 @@
         }
       ],
 
-      "rating": "AAA+",
+      "rating": 3.9,
       "status": "Private",
       "website":"www.viit.ac.in",
       "phone_no":26950200,
@@ -238,7 +246,7 @@
           "lng": 73.98177403957862
         }
       },
-      "icon": "https://lh3.googleusercontent.com/proxy/CnAV-SkbQ_EqeEYfti82Y9m-werKEbOZFhawS3NJecW1zNfVvV1cL4Vn4Y4UsiicwebSzUJBY7jOyA3-3GB5cGjr-bnhysjipdg7J3-Bj4b4oyyOXg",
+      "icon": "https://lh3.googleusercontent.com/proxy/0QaEtFnLqCF-bonfVzHJxGZfhRnEB7AWsROaX9OwsZNaJRPG9-tztxJWvnY8w4rFy7to18iEHlol5XsWR9gzoNPjJYs-41HB44B9lOYXB5JkVKuY8w",
       "name": "G.H.Raisoni College of Engineering & Management, Wagholi, Pune",
       "photos": [
         {
@@ -249,7 +257,7 @@
         }
       ],
 
-      "rating": "",
+      "rating": 2.5,
       "status": "Non-Autonomous",
       "website":"coewpune.bharatividyapeeth.edu",
       "phone_no":24371684 ,
@@ -275,7 +283,7 @@
         }
       ],
 
-      "rating": "AAA",
+      "rating": 4.4,
       "status": "Private",
       "website":"www.dypiemr.ac.in",
       "phone_no":27656566 ,
@@ -301,7 +309,7 @@
         }
       ],
 
-      "rating": "AAA+",
+      "rating": 3.6,
       "status": "Private",
       "website":"www.pict.edu",
       "phone_no":	24371101,
@@ -327,7 +335,7 @@
         }
       ],
 
-      "rating": "AAA+",
+      "rating": 4.4,
       "status": "Private",
       "website":"www.cumminscollege.org",
       "phone_no":	25311000,
@@ -353,8 +361,12 @@
         }
       ],
 
-      "rating": "AAAA",
+      "rating": 4.1,
       "status": "Private Autonomous",
+      "website":"www.aitpune.com",
+      "phone_no":7249250184,
+      "email":"ait@aitune.edu.in",
+      "dte_code":	6881,
       "vicinity": "Alandi Rd, Dighi, Pune, Maharashtra 411015"
     },
     {
@@ -375,8 +387,12 @@
         }
       ],
 
-      "rating": "AAAA",
+      "rating": 3.9,
       "status": "Private",
+      "website":"www.sinhgad.edu",
+      "phone_no":66831703,
+      "email":"registrar_sits@sinhgad.edu",
+      "dte_code":	6182,
       "vicinity": "Symbiosis International University Near Lupin Research Park, Gram: Lavale, Tal:, Mulshi, Maharashtra 412115"
     },
     {
@@ -387,7 +403,7 @@
         }
       },
       "icon": "https://lh5.googleusercontent.com/p/AF1QipPZwuPuMgqDx_6O5yf-3oyrA0_UciSnT_VJ2VH-=w408-h258-k-no",
-      "name": " MIT College of Engineering Khothrud",
+      "name": "MIT College of Engineering Khothrud",
       "photos": [
         {
           "height": 576,
@@ -397,8 +413,12 @@
         }
       ],
 
-      "rating": "AAA",
+      "rating": 3.3,
       "status": "Private",
+      "website":"www.mitpune.com",
+      "phone_no":30273400,
+      "email":"mit@mitpune.com",
+      "dte_code":	6151,
       "vicinity": "Survey No. 124, Paud Road, MIT College Campus Ex, Shivtirthanagar, Kothrud, Pune, Maharashtra 411038"
     },
     {
@@ -419,7 +439,7 @@
         }
       ],
 
-      "rating": "AAA",
+      "rating": 3.5,
       "status": "Private",
       "website":"www.pvgcoet.ac.in",
       "phone_no":24228258,
@@ -445,7 +465,7 @@
         }
       ],
 
-      "rating": "AAAA",
+      "rating": 4.0,
       "status": "PRIVATE AUTONOMOUS",
       "website":"www.jspmrscoe.edu.in",
       "phone_no":67127777,
@@ -526,6 +546,10 @@
 
       "rating": "A+",
       "status": "PRIVATE",
+      "website":"www.dpcoepune.edu.in",
+      "phone_no":66059900,
+      "email":"dpcoepune@gmail.com",
+      "dte_code":	6307,
       "vicinity": "Dhole Patil, Survey No 1284 College Road Near Eon IT Park Road Vitthal Nagar, Wagholi, Kharadi, Pune, Maharashtra 412207"
     },
     
@@ -547,7 +571,7 @@
         }
       ],
 
-      "rating": "NAAC",
+      "rating": 3.4,
       "status": "PRIVATE",
       "website":"www.moderncoe.edu.in",
       "phone_no":25533638,
@@ -655,7 +679,8 @@
         }
       ],
 
-      "rating": "AA+",
+
+      "rating": 3.8,
       "status": "PRIVATE",
       "website":"www.sinhgad.edu",
       "phone_no":26934441,
@@ -684,6 +709,10 @@
 
       "rating": "NAAC B",
       "status": "PRIVATE",
+      "website":"www.abmspcoerpune.org",
+      "phone_no":24213929,
+      "email":"abmspcoe@yahoo.com",
+      "dte_code":	6794,
       "vicinity": "Campus, Ramana, S. No. 103, Shahu College Rd, Parvati, Pune, Maharashtra 411009"
     },
     {
@@ -706,6 +735,10 @@
 
       "rating": "AAA",
       "status": "GOVERNMENT AUTONOMOUS",
+      "website":"www.gcoeara.ac.in",
+      "phone_no":230582,
+      "email":"office.gcoeavasari@dtemaharashtra.gov.in",
+      "dte_code":6004,
       "vicinity": "Avasari - Khurd, Taluka - Ambegaon, Maharashtra 412405"
     },
     {
@@ -728,6 +761,10 @@
 
       "rating": "NAAC",
       "status": "PRIVATE",
+      "website":"www.pvpittssm.edu.in",
+      "phone_no":22948000,
+      "email":"principalpvpit@tssm.edu.in",
+      "dte_code":	6122,
       "vicinity": "S No 33/22, Pune Pirangut Road, next to Chandani Chowk, Bavdhan, Pune, Maharashtra 411021"
     },
     {
