@@ -15,7 +15,7 @@ export const RestaurantContextProvider = ({ children }) => {
     
     setTimeout(() => {
       restaurantRequest(location)
-        .then(restaurantTransform)
+        .then((res)=>restaurantTransform(res,location))
         .then((result) => {
           setIsLoading(false);
           setRestaurants(result);

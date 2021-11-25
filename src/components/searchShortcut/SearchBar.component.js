@@ -1,4 +1,4 @@
-import React, { useContext, useEffect,useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { View, Text, ScrollView } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import styled from "styled-components/native";
@@ -21,7 +21,7 @@ const Shortcuts = [
   "All",
   "Government",
   "Private",
-  "Private-Autonoumous",
+  "PrivateAutonoumous",
   "Pune",
   "Nashik",
   "Mumbai",
@@ -31,31 +31,37 @@ const Shortcuts = [
 ];
 const SearchShortcutBar = () => {
   const { search, keyword } = useContext(LocationContext);
-  const [selectedIndex, setSelectedIndex] = useState(Shortcuts.indexOf(keyword));
+  const [selectedIndex, setSelectedIndex] = useState(0);
   const updateIndex = (selectedIndex) => {
     setSelectedIndex(selectedIndex);
     search(Shortcuts[selectedIndex]);
   };
   useEffect(() => {
-    setSelectedIndex(Shortcuts.indexOf(keyword))
-  }, [keyword])
+    setSelectedIndex(Shortcuts.indexOf(keyword));
+  }, [keyword]);
+
   return (
     <FavouriteWrapper>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         <ButtonGroup
+          textStyle={{
+            fontWeight: "bold",
+          }}
           onPress={updateIndex}
           selectedIndex={selectedIndex}
           buttons={Shortcuts}
           buttonStyle={{
             borderRadius: 35,
-            backgroundColor: "white",
+            backgroundColor: "#ffffff",
             padding: 8,
+            
           }}
-          innerBorderStyle={{ width: 6, color: "#F1F1F1" }}
+          innerBorderStyle={{ width: 6, color: "transparent" }}
           containerStyle={{
             //borderRadius: 35,
-            backgroundColor: "#F1F1F1",
-            borderColor: "#F1F1F1",
+            backgroundColor: "transparent",
+            borderColor: "transparent",
+
           }}
           selectedButtonStyle={{
             backgroundColor: "#757575",

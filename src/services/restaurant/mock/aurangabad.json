@@ -1,0 +1,134 @@
+{
+    "html_attributions": [],
+    "next_page_token": "some token",
+    "results": [
+      {
+        "geometry": {
+          "location": {
+            "lat":18.406299047070245, 
+            "lng":  76.52076582634723 
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipMvWFNS7DtDqI_sOohkhmXkUvSOiU-eCvHurOPf=w426-h240-k-no",
+        "name": "M S Bidve Engineering College latur",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "AAA",
+        "status": "Non-Autonomous",
+        "website":"www.msbecl.ac.in",
+        "phone_no":221255,
+        "email":"principal@msbecl.ac.in",
+        "dte_code":2129,
+        "vicinity": "Barshi Rd, Pakharsangvi, Latur, Maharashtra 413531"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": 18.38820069783808, 
+            "lng":  76.47638928402021
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipMd3Hb2d2LQ8vq1Jq32PCVr55dYSsk1Q2JAVEaA=w408-h306-k-no",
+        "name": "Vilasrao Deshmukh Foundation VDF School of Engineering & Technology Latur",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "B",
+        "dte_code":2254,
+        "status": "private",
+        "website":"www.vdf.in",
+        "phone_no":2382267737,
+        "email":"info.goi@vdf.in",
+        "vicinity": "MIDC, Educity, Additional, Barshi - Latur Hwy, Latur, Maharashtra 413531"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat": 18.42828303811175, 
+            "lng":  76.64514075518419
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOTPy858MPkywoOYeEukU8UnIjOMLgVwVAAyZyS=w408-h544-k-no",
+        "name": "STMEI's Sandipani Technical Campus-Faculty of Engineering, Latur.",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "C",
+        "status": "private",
+        "website":"www.sandipani.ac.in",
+        "phone_no":263546,
+        "email":"adminofficer@sandipani.ac.in",
+        "dte_code":2522,
+        "vicinity": "Kolpa, Nanded Rod, Latur, Maharashtra 413512"
+      },
+      {
+        "geometry": {
+            "location": {
+            "lat": 19.14238596800736, 
+            "lng": 77.3072692190914
+            }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOk4nq9IedbKaNsTPiUO_ht4OMqJ1BTz2eMSGXJ=w408-h408-k-no",
+        "name": "Shri Guru Gobind Singhji Institute of Engineering and Technology, Nanded",
+        "photos": [
+            {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+            }
+        ],
+        "rating": "A+",
+        "status": "Government aided autonomous",
+        "website":"www.sggs.ac.in",
+        "phone_no":229234,
+        "email":"director@sggs.ac.in",
+        "dte_code":2020,
+        "vicinity": "Vishnupuri Nanded"
+        },
+        {
+            "geometry": {
+                "location": {
+                "lat": 19.179870315764372,
+                "lng":  77.32421616994222
+                }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipPipgmabuZaZ_kZQXepx1vCW4FbhNCK2c0UKo5J=w408-h306-k-no",
+            "name": "MGM's College Of Engineering Nanded ",
+            "photos": [
+                {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+                }
+            ],
+            "rating": "C",
+            "status": "private",
+            "website":"www.mgmcen.ac.in",
+            "phone_no":222999,
+            "email":"director@mgmcen.ac.in",
+            "dte_code":2127,
+            "vicinity": "Nanded Bypass Rd, Hingoli Naka, Ambekar Nagar, Nanded-Waghala, Maharashtra 431601"
+            }
+
+
+    ],
+    "status": "OK"
+  }

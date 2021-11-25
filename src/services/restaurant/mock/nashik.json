@@ -1,157 +1,459 @@
 {
-    "html_attributions": [],
-    "next_page_token": "some token",
-    "results": [
-      {
-        "geometry": {
-          "location": {
-            "lat":20.014620552670575, 
-            "lng":   73.7638288279033
-          }
-        },
-        "icon": "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/3669/2019/3/25/College%20View%20of%20NDMVP%20Samajs%20Karmaveer%20Adv%20Baburao%20Ganpatrao%20Thakare%20College%20of%20Engineering%20Nashik_Campus-View.jpg",
-        "name": "Nashik District Maratha Vidya Prasarak Samaj's Karmaveer Adv.Babaurao Ganpatrao Thakare College of Engineering",
-        "photos": [
-          {
-            "height": 3672,
-            "html_attributions": [""],
-            "photo_reference": "",
-            "width": 6786
-          }
-        ],
-        "rating": "AAA",
-        "status": "Non-Autonomous",
-        "website":"www.kbtcoe.org",
-        "phone_no":2571439,
-        "email":"principal@kbtcoe.org",
-        "dte_code":5108,
-        "vicinity": "Udoji Maratha Boarding Campus, Gangapur Road, Nashik, Maharashtra 422013"
+  "html_attributions": [],
+  "next_page_token": "some token",
+  "results": [
+    {
+      "geometry": {
+        "location": {
+          "lat": 20.014620552670575,
+          "lng": 73.7638288279033
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat":19.96601003039378, 
-            "lng":   73.66820164139466
-          }
-        },
-        "icon": "https://images.shiksha.com/mediadata/images/1554806546phpVwCroh.png",
-        "name": "Sandip Foundation, Sandip Institute of Technology and Research Centre",
-        "photos": [
-          {
-            "height": 3672,
-            "html_attributions": [""],
-            "photo_reference": "",
-            "width": 6786
-          }
-        ],
-        "rating": "AAA",
-        "status": "Non-Autonomous",
-        "website":"www.sandipfoundation.org",
-        "phone_no":222551,
-        "email":"principal@sitrc.org",
-        "dte_code":5109,
-        "vicinity": "Mahiravani, Trimbak Road, Nashik, Maharashtra 422213"
+      "icon": "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/3669/2019/3/25/College%20View%20of%20NDMVP%20Samajs%20Karmaveer%20Adv%20Baburao%20Ganpatrao%20Thakare%20College%20of%20Engineering%20Nashik_Campus-View.jpg",
+      "name": "Nashik District Maratha Vidya Prasarak Samaj's Karmaveer Adv.Babaurao Ganpatrao Thakare College of Engineering",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "AAA",
+      "status": "Non-Autonomous",
+      "website": "www.kbtcoe.org",
+      "phone_no": 2571439,
+      "email": "principal@kbtcoe.org",
+      "dte_code": 5108,
+      "vicinity": "Udoji Maratha Boarding Campus, Gangapur Road, Nashik, Maharashtra 422013"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 19.96601003039378,
+          "lng": 73.66820164139466
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat":20.013883733462386, 
-            "lng":   73.82227212605184
-          }
-        },
-        "icon": "https://lh5.googleusercontent.com/p/AF1QipOVQIm44aWegsd-X21u2t9i6LS5LtFBjWdhKZ1_=w408-h306-k-no",
-        "name": "K. K. Wagh Institute of Engineering Education and Research, Nashik",
-        "photos": [
-          {
-            "height": 3672,
-            "html_attributions": [""],
-            "photo_reference": "",
-            "width": 6786
-          }
-        ],
-        "rating": "AAA",
-        "status": "Non-Autonomous",
-        "website":"www.engg.kkwagh.edu.in",
-        "phone_no":2221302,
-        "email":"kkwieer@kkwagh.edu.in",
-        "dte_code":5121,
-        "vicinity": "Hirabai Haridas Vidyanagari, Mumbai Agra Road Amrutdham, Panchavati, Nashik, Maharashtra 422003"
+      "icon": "https://images.shiksha.com/mediadata/images/1554806546phpVwCroh.png",
+      "name": "Sandip Foundation, Sandip Institute of Technology and Research Centre",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "AAA",
+      "status": "Non-Autonomous",
+      "website": "www.sandipfoundation.org",
+      "phone_no": 222551,
+      "email": "principal@sitrc.org",
+      "dte_code": 5109,
+      "vicinity": "Mahiravani, Trimbak Road, Nashik, Maharashtra 422213"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 20.013883733462386,
+          "lng": 73.82227212605184
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat":19.882996590178678, 
-            "lng":   73.93332192790096
-          }
-        },
-        "icon": "https://lh5.googleusercontent.com/p/AF1QipNdZwfp9TV4IK8NtlkeDUu99a7aJnzyieaIecO3=w408-h248-k-no",
-        "name": "Pravara Rural Education Society's Sir Visvesvaraya Institute of Technology, Chincholi Dist. Nashik",
-        "photos": [
-          {
-            "height": 3672,
-            "html_attributions": [""],
-            "photo_reference": "",
-            "width": 6786
-          }
-        ],
-        "rating": "AAA",
-        "status": "Non-Autonomous",
-        "website":"www.svitnashik.in",
-        "phone_no":271278,
-        "email":"svit.nashik@pravara.in",
-        "dte_code":5125,
-        "vicinity": "VWMM+579, Nashik, Maharashtra 422102"
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipOVQIm44aWegsd-X21u2t9i6LS5LtFBjWdhKZ1_=w408-h306-k-no",
+      "name": "K. K. Wagh Institute of Engineering Education and Research, Nashik",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "AAA",
+      "status": "Non-Autonomous",
+      "website": "www.engg.kkwagh.edu.in",
+      "phone_no": 2221302,
+      "email": "kkwieer@kkwagh.edu.in",
+      "dte_code": 5121,
+      "vicinity": "Hirabai Haridas Vidyanagari, Mumbai Agra Road Amrutdham, Panchavati, Nashik, Maharashtra 422003"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 19.882996590178678,
+          "lng": 73.93332192790096
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat":19.950552412874966, 
-            "lng":  73.57696603121009 
-          }
-        },
-        "icon": "data:image/jpeg;base64,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",
-        "name": "Brahma Valley College of Engineering & Research, Trimbakeshwar, Nashik",
-        "photos": [
-          {
-            "height": 3672,
-            "html_attributions": [""],
-            "photo_reference": "",
-            "width": 6786
-          }
-        ],
-        "rating": "AAA",
-        "status": "Non-Autonomous",
-        "website":"www.brahmavalley.com",
-        "phone_no":220202,
-        "email":"princi.bvcoe@gmail.com",
-        "dte_code":5130,
-        "vicinity": "Trimbakeshwar Rd, Anjaneri, Maharashtra 422212"
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipNdZwfp9TV4IK8NtlkeDUu99a7aJnzyieaIecO3=w408-h248-k-no",
+      "name": "Pravara Rural Education Society's Sir Visvesvaraya Institute of Technology, Chincholi Dist. Nashik",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "AAA",
+      "status": "Non-Autonomous",
+      "website": "www.svitnashik.in",
+      "phone_no": 271278,
+      "email": "svit.nashik@pravara.in",
+      "dte_code": 5125,
+      "vicinity": "VWMM+579, Nashik, Maharashtra 422102"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 19.950552412874966,
+          "lng": 73.57696603121009
+        }
       },
-      {
-        "geometry": {
-          "location": {
-            "lat":20.0415518571652, 
-            "lng":   73.85028849721635
-          }
-        },
-        "icon": "https://lh5.googleusercontent.com/p/AF1QipNP7M4Fc3goZ_aIqD85g8zk00Vbsog7-ge4qkvj=w426-h240-k-no",
-        "name": "MET Bhujbal Knowledge City MET League's Engineering College, Adgaon, Nashik.",
-        "photos": [
-          {
-            "height": 3672,
-            "html_attributions": [""],
-            "photo_reference": "",
-            "width": 6786
-          }
-        ],
-        "rating": "AAA",
-        "status": "Non-Autonomous",
-        "website":"www.metbhujbalknowledgecity.ac.in",
-        "phone_no":2303515,
-        "email":"vpwani@gmail.com",
-        "dte_code":5151,
-        "vicinity": "Bhujbal Knowledge City, Adgaon, Nashik, Maharashtra 422207"
-      }
-    ],
-    "status": "OK"
-  }
+      "icon": "data:image/jpeg;base64,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",
+      "name": "Brahma Valley College of Engineering & Research, Trimbakeshwar, Nashik",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "AAA",
+      "status": "Non-Autonomous",
+      "website": "www.brahmavalley.com",
+      "phone_no": 220202,
+      "email": "princi.bvcoe@gmail.com",
+      "dte_code": 5130,
+      "vicinity": "Trimbakeshwar Rd, Anjaneri, Maharashtra 422212"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 20.0415518571652,
+          "lng": 73.85028849721635
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipNP7M4Fc3goZ_aIqD85g8zk00Vbsog7-ge4qkvj=w426-h240-k-no",
+      "name": "MET Bhujbal Knowledge City MET League's Engineering College, Adgaon, Nashik.",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "AAA",
+      "status": "Non-Autonomous",
+      "website": "www.metbhujbalknowledgecity.ac.in",
+      "phone_no": 2303515,
+      "email": "vpwani@gmail.com",
+      "dte_code": 5151,
+      "vicinity": "Bhujbal Knowledge City, Adgaon, Nashik, Maharashtra 422207"
+    },
+
+    {
+      "geometry": {
+        "location": {
+          "lat": 19.577508784580715,
+          "lng": 74.44562175845293
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipMUl48t5rhZFzK3dpsvlv7wHD95e6_jCBYB98EN=w408-h278-k-no",
+      "name": "Pravara Rural College of Engineering, Loni, Pravaranagar, Ahmednagar.",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "",
+      "status": "Non-Autonomous",
+      "website": "www.pravaraengg.org.in",
+      "phone_no": 273204,
+      "email": "principal.precloni@pravara.in",
+      "dte_code": 5139,
+      "vicinity": "Maharastra State Highway 44, Loni, Maharashtra 413736"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 19.18139171873814,
+          "lng": 74.68977383940242
+        }
+      },
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTndJFSqhGu3sOIhDnqk6NzK9qRcEBEmHxWlgZoRT6_os_QK-cRrATcGm8PT_L5JARzK9M&usqp=CAU",
+      "name": "Dr. Vithalrao Vikhe Patil College of Engineering, Ahmednagar",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "",
+      "status": "Non-Autonomous",
+      "website": "www.enggnagar.com",
+      "phone_no": 2777296,
+      "email": "prin_coea@yahoo.com",
+      "dte_code": 5161,
+      "vicinity": "MIDC, Vilad Ghat, Ahmednagar, Maharashtra 414111"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 19.042489712983983,
+          "lng": 74.64501921426478
+        }
+      },
+      "icon": "https://getmyuni.azureedge.net/college-image/big/gh-raisoni-college-of-engineering-and-management-ghrcem-ahmednagar.jpg",
+      "name": "G. H. Raisoni College of Engineering and Management, Ahmednagar",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "",
+      "status": "Non-Autonomous",
+      "website": "www.ghrcemahm.raisoni.net",
+      "phone_no": 2570123,
+      "email": "ghrcemahm@raisoni.net",
+      "dte_code": 5176,
+      "vicinity": "Gate No.1030, Pune Highway, Village Chass, Jilha Parishad, Ahmednagar, Maharashtra 414008"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 19.059649259970673,
+          "lng": 74.81780517008625
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipP1OmFUD9n5orhQj-JIssxtJ-QOFBOHOuPaZLoC=w408-h267-k-no",
+      "name": "Vishwabharati Academy's College of Engineering, Ahmednagar",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "",
+      "status": "Non-Autonomous",
+      "website": "www.vacoea.com",
+      "phone_no": 2660033,
+      "email": "principal_vacoea@yahoo.com",
+      "dte_code": 5179,
+      "vicinity": "Sarola Baddi, Jamkhed Road, 1, MH MSH 2, Maharashtra 414201"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 19.099256611306824,
+          "lng": 74.66934036823676
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipOCI6SL9YqGmI2GGDkuLylVzQqaipjPStgBEQSq=w477-h240-k-no",
+      "name": "Shri. Chhatrapati Shivaji Maharaj College of Engineering, Nepti",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "",
+      "status": "Non-Autonomous",
+      "website": "www.scoea.org",
+      "phone_no": 2568383,
+      "email": "scsmcoe.anr@hotmail.com",
+      "dte_code": 5382,
+      "vicinity": "Survey no. 162 & 163, Nepti, Ahmednagar-Kalyan Rd, Ahmednagar, Maharashtra 414005"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 19.050800505361355,
+          "lng": 74.65221158542913
+        }
+      },
+      "icon": "https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/5066/2020/11/23/Campus%20View%20of%20Adsuls%20Technical%20Campus%20Ahmednagar_Campus-View.jpg",
+      "name": "Adsul's Technical Campus, Chas Dist. Ahmednagar",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "",
+      "status": "Non-Autonomous",
+      "website": "www.adsulgroup.com",
+      "phone_no": 2570428,
+      "email": "adsulstechnicalcampus@gmail.com",
+      "dte_code": 5380,
+      "vicinity": "Chas , Nimblak By Pass Road, Ahmednagar, Maharashtra 414005"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 19.15920325145526,
+          "lng": 74.34843691056625
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipPpoNLd_yx2hEookaahK3XjwO-URNfuziJ9F5rx=w426-h240-k-no",
+      "name": "Rajiv Gandhi College of Engineering, At Post Karjule Hariya Tal.Parner, Dist.Ahmednagar",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "",
+      "status": "Non-Autonomous",
+      "website": "www.rgcoe.org",
+      "phone_no": 295101,
+      "email": "rajivgandhi.iot@gmail.com",
+      "dte_code": 5409,
+      "vicinity": "TAKALI DHOKESHWAR, TALUKA – PARNER , DISTRICT –AHMEDNAGAR, Karjule Harya, Maharashtra 414304"
+    },
+
+    {
+      "geometry": {
+        "location": {
+          "lat": 21.003006974580966,
+          "lng": 75.54873398188336
+        }
+      },
+      "icon": "data:image/jpeg;base64,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",
+      "name": "Government College of Engineering, Jalgaon",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "",
+      "status": "Government",
+      "website": "www.gcoej.ac.in",
+      "phone_no": 2281522,
+      "email": "princoej@rediffmail.com",
+      "dte_code": 5004,
+      "vicinity": "Opp. Government ITI, NH 6, National Highway 6, Ramanand Nagar, Jalgaon, Maharashtra 425001"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 20.919761361478887,
+          "lng": 74.78141944162208
+        }
+      },
+      "icon": "data:image/jpeg;base64,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",
+      "name": "Shri Shivaji Vidya Prasarak Sanstha's Late Bapusaheb Shivaji Rao Deore College of Engineering,Dhule",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "",
+      "status": "private",
+      "website": "www.ssvpsengg.ac.in",
+      "phone_no": 272713,
+      "email": "princi.ssvps@gmail.com",
+      "dte_code": 5103,
+      "vicinity": "Ssvps engg. College, Vidyanagri, Deopur, Dhule, Maharashtra 424005"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 20.962013474422506,
+          "lng": 75.55156375881205
+        }
+      },
+      "icon": "https://images.shiksha.com/mediadata/images/1412061201phpMbr77e.png",
+      "name": "Shri Gulabrao Deokar College of Engineering, Jalgaon",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "",
+      "status": "private",
+      "website": "www.sgdcoejalgaon.org",
+      "phone_no": 2264871,
+      "email": "principal@sgdcoejalgaon.org",
+      "dte_code": 5107,
+      "vicinity": "No. 113, M.S, Gate No 56 Shirsoli Road Tambapura Post Box, Jalgaon, Maharashtra 425002"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 21.00757285893358,
+          "lng": 75.55223084347132
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipP0FBDS4z0us_4SLxOzpuCtmDe-ye8tMo11tDAp=w426-h240-k-no",
+      "name": "Khandesh College Education Society's College Of Engineering And Management, Jalgaon",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "",
+      "status": "private",
+      "website": "www.coem.kces.in",
+      "phone_no": 2242025,
+      "email": "coeit.inquiry@gmail.com",
+      "dte_code": 5106,
+      "vicinity": "D.I.C., N.H.6, next to IMR College, Ganesh Colony, Jalgaon, Maharashtra 425001"
+    },
+    {
+      "geometry": {
+        "location": {
+          "lat": 21.015012514363605,
+          "lng": 75.50293482628211
+        }
+      },
+      "icon": "https://lh5.googleusercontent.com/p/AF1QipPY79oRSEozfLZIrZVdhMYJChpsu5cFg5gChhvy=w426-h240-k-no",
+      "name": "Shramsadhana Bombay Trust, College of Engineering & Technology, Jalgaon",
+      "photos": [
+        {
+          "height": 3672,
+          "html_attributions": [""],
+          "photo_reference": "",
+          "width": 6786
+        }
+      ],
+      "rating": "",
+      "status": "private",
+      "website": "www.sscoetjalgaon.ac.in",
+      "phone_no": 2258393,
+      "email": "sscoetjal@gmail.com",
+      "dte_code": 5104,
+      "vicinity": "Bambhori Pr. Chandsar, Jalgaon, Maharashtra 425001"
+    }
+  ],
+  "status": "OK"
+}

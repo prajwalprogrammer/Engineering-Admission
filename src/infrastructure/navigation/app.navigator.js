@@ -10,15 +10,7 @@ import { MapScreen } from "../../features/map/screens/map.screen";
 import { SafeArea } from "../../components/utility/safe-area.component";
 import { Button } from "react-native-paper";
 import { AuthenticationContext } from "../../services/authentication/authentication.context";
-import {
-  FavouriteContext,
-  FavouriteContextProvider,
-} from "../../services/favourite/favourite.context";
-import {
-  LocationContext,
-  LocationContextProvider,
-} from "../../services/location/location.context";
-import { RestaurantContextProvider } from "../../services/restaurant/restaurant.context";
+
 import SettingsScreen from "../../features/settings/settings.screen";
 import SettingNavigator from "./settingNavigator";
 const Tab = createBottomTabNavigator();
@@ -38,9 +30,7 @@ const createScreenOptions = ({ route }) => {
 };
 const AppNavigation = () => {
   return (
-    <FavouriteContextProvider>
-      <LocationContextProvider>
-        <RestaurantContextProvider>
+    
           <Tab.Navigator
             screenOptions={createScreenOptions}
             tabBarOptions={{
@@ -52,9 +42,7 @@ const AppNavigation = () => {
             <Tab.Screen name="Map" component={MapScreen} />
             {/* <Tab.Screen name="Settings" component={SettingNavigator} /> */}
           </Tab.Navigator>
-        </RestaurantContextProvider>
-      </LocationContextProvider>
-    </FavouriteContextProvider>
+        
   );
 };
 

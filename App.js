@@ -11,7 +11,8 @@ import {
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 import Navigation from "./src/infrastructure/navigation";
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
-
+import { FavouriteContextProvider } from "./src/services/favourite/favourite.context";
+import { getStorage } from "firebase/storage";
 export const firebaseConfig = {
   apiKey: "AIzaSyCZ1CBSzaR1eiICnxwMh19Ow97jn8JrDpQ",
   authDomain: "mealstogo-10013.firebaseapp.com",
@@ -25,7 +26,7 @@ export const firebaseConfig = {
 if (!firebase.getApps().length) {
 }
 export const initialize = firebase.initializeApp(firebaseConfig);
-
+export const storage = getStorage(initialize);
 export default function App() {
   const [oswaldLoaded] = useOswald({
     Oswald_400Regular,
@@ -42,7 +43,9 @@ export default function App() {
     <>
       <ThemeProvider theme={theme}>
         <AuthenticationContextProvider>
-          <Navigation />
+          <FavouriteContextProvider>
+            <Navigation />
+          </FavouriteContextProvider>
         </AuthenticationContextProvider>
       </ThemeProvider>
 

@@ -1,0 +1,336 @@
+{
+    "html_attributions": [],
+    "next_page_token": "some token",
+    "results": [
+        {
+            "geometry": {
+              "location": {
+                "lat":21.051975364331838, 
+                "lng":  79.0599816416242
+              }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipMJ6u6A_Ccr2FY_28c_YNp6-usZWqrWKz_EudNB=w408-h306-k-no",
+            "name": "Government College of Engineering, Nagpur",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "Government",
+            "website":"www.gcoen.ac.in",
+            "phone_no":295220,
+            "email":"office.gcoenagpur@dtemaharashtra.gov.in",
+            "dte_code":4025,
+            "vicinity": "Government College of engineering, Nagpur, Maharashtra 441108"
+          },
+          {
+            "geometry": {
+              "location": {
+                "lat":21.095341233259653, 
+                "lng":  78.9785830262834
+              }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipNVGI25CpAmbgtb2Bxorv5JdY3QGV91fQr4mgbb=w408-h267-k-no",
+            "name": "Yeshwantrao Chavan College of Engineering,Wanadongri, Nagpur",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "private",
+            "website":"www.ycce.edu",
+            "phone_no":242919,
+            "email":"principal@ycce.edu",
+            "dte_code":4167,
+            "vicinity": "Hingna Rd, Wanadongri ct, Nagpur, Maharashtra 441110"
+          },
+          {
+            "geometry": {
+              "location": {
+                "lat":21.14603828454843, 
+                "lng":  79.04896147230896
+              }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipOYak0AnYLSHSyktD42HcvXnqx3HBGfeUwy9Cd-=w408-h306-k-no",
+            "name": "Laxminarayan Institute of Technology, Nagpur",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "University Department",
+            "website":"www.litnagpur.in",
+            "phone_no":2561107,
+            "email":"rajumankar@gmail.com",
+            "dte_code":4005,
+            "vicinity": "Amravati Rd, Ram Nagar, Nagpur, Maharashtra 440033"
+          },
+          {
+            "geometry": {
+              "location": {
+                "lat":21.105368495657363, 
+                "lng":  79.00345811094192
+              }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipP57_uFrs4IF_fD7UfLryn0mkGNRwMPmUsmWsGo=w408-h305-k-no",
+            "name": "Ankush Shikshan Sanstha's G.H.Raisoni College of Engineering, Nagpur",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "private",
+            "website":"www.ghrce.raisoni.net",
+            "phone_no":9604787184,
+            "email":"principal.ghrce@raisoni.net",
+            "dte_code":4116,
+            "vicinity": "CRPF Gate, No.3, Hingna Rd, Digdoh Hills, Nagpur, Maharashtra 440016"
+          },
+          
+          {
+            "geometry": {
+              "location": {
+                "lat":21.154725913881435, 
+                "lng":  79.14399685696746
+              }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipOP98gEE2g7ngUmZ29e1Dnsq1ycCuzphacmr7_v=w480-h240-k-no",
+            "name": "Lokmanya Tilak Jankalyan Shikshan Sanstha, Priyadarshani College of Engineering, Nagpur",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "private",
+            "website":"www.pcenagpur.edu.in",
+            "phone_no":244381,
+            "email":"principal.pce.ngp@gmail.com",
+            "dte_code":4123,
+            "vicinity": "Bhandara Rd, Mirna Matha Nagar, Surya Nagar, Nagpur, Maharashtra 440008"
+          },
+         
+          {
+            "geometry": {
+              "location": {
+                "lat":19.92300149673509, 
+                "lng": 79.31870688875016
+              }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipNfxfV344eVhcsH7xsvc7dMXGPeGO1ZJJNOLg2m=w408-h295-k-no",
+            "name": "Government College of Engineering, Chandrapur",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "Government",
+            "website":"office.gcoechandrapur@dtemaharashtra.gov.in",
+            "phone_no":227334,
+            "email":"www.gcoec.ac.in",
+            "dte_code":4004,
+            "vicinity": "W8F9+499, Babupeth, Chandrapur, Maharashtra 442403"
+          },
+          {
+            "geometry": {
+              "location": {
+                "lat":21.176921515483343, 
+                "lng":79.06160083977855
+              }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipN4MNSZnf3r_CiCotMwpJOwYrHV6VqamQwbFVYB=w408-h306-k-no",
+            "name": "Shri Ramdeobaba College of Engineering and Management, Nagpur",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "private",
+            "website":"www.rknec.edu",
+            "phone_no":2580011,
+            "email":"deanadmissions@rknec.edu",
+            "dte_code":4115,
+            "vicinity": "Shri Ramdeobaba College of Engineering and Management, Katol Rd, Lonand, Gittikhadan, Nagpur, Maharashtra 440013"
+          },
+          {
+            "geometry": {
+              "location": {
+                "lat":21.12420687251775, 
+                "lng":79.00300648210685
+              }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipPwrOKYtBmF84s_S-6qhrSGiiW7cTEoJbj8IBtU=w408-h305-k-no",
+            "name": "G.H. Raisoni Institute of Information Technology",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "private",
+            "website":"ghriit.raisoni.net",
+            "phone_no":236102,
+            "email":"ghriitnag@raisoni.net",
+            "dte_code":4117,
+            "vicinity": "Shradha Park, B-37/39, Hingna Rd, Midc, Nagpur, Maharashtra 440028"
+          },
+          {
+            "geometry": {
+              "location": {
+                "lat":20.735791027847377, 
+                "lng":78.66553552812532
+              }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipPDJpHg2952FwbPkdgIkXwnlUfwBW-oHypDuDQo=w408-h544-k-no",
+            "name": "Bapurao Deshmukh College of Engineering, Sevagram",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "private",
+            "website":"www.bdce.edu.in",
+            "phone_no":284378,
+            "email":"princi.bdces@gmail.com",
+            "dte_code":4118,
+            "vicinity": "Sevagram, Wardha, Maharashtra 442102"
+          },
+          {
+            "geometry": {
+              "location": {
+                "lat":21.221537719591197, 
+                "lng":78.94759938395624
+              }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipPHoq_BTv4WavOeQgQ-meT8xwB0_hKMpNQIjatR=w408-h281-k-no",
+            "name": "Guru Nanak Institute of Engineering & Technology,Kalmeshwar, Nagpur",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "private",
+            "website":"www.gniet.ac.in",
+            "phone_no":661400,
+            "email":"gnietnagpur@gmail.com",
+            "dte_code":4134,
+            "vicinity": "Dahegaon, Kalmeshwar Road, near Radha Swami Satsang, Nagpur, Maharashtra 441502"
+          },
+          {
+            "geometry": {
+              "location": {
+                "lat":21.152098424664207, 
+                "lng":78.8834139058662
+              }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipOdXr2OcTA3sZaj_uJHZBB-WLJEzTMMHR4vbOvd=w408-h306-k-no",
+            "name": "Jaidev Education Society, J D College of Engineering and Management, Nagpur",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "private",
+            "website":"www.jdcoem.ac.in",
+            "phone_no":2023003,
+            "email":"principal@jdcoem.ac.in",
+            "dte_code":4138,
+            "vicinity": "Khandala, Post : Valni Near Hanuman Temple, Borgoan, Kalmeshwar Rd, Phata, Nagpur, Maharashtra 441501"
+          },
+          {
+            "geometry": {
+              "location": {
+                "lat":21.24777227615911, 
+                "lng":79.0503024704629
+              }
+            },
+            "icon": "https://lh5.googleusercontent.com/p/AF1QipPKMyhPoS2ibVtZdr3DRRjdCXey1jfafVyJuMBL=w426-h240-k-no",
+            "name": "Samridhi Sarwajanik Charitable Trust, Jhulelal Institute of Technology, Nagpur",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "private",
+            "website":"www.jitnagpur.edu.in",
+            "phone_no":2668233,
+            "email":"admin@jit.org.in",
+            "dte_code":4139,
+            "vicinity": "Jhulelal Institute of Technology, KH. NO. 68 & 72, Village Lonara, Off, Koradi Rd, Nagpur, Maharashtra 441111"
+          },
+          {
+            "geometry": {
+              "location": {
+                "lat":21.144052375601817, 
+                "lng":79.05683188580267
+              }
+            },
+            "icon": "https://images.collegedunia.com/public/college_data/images/appImage/19191_VDCET_New.jpg?mode=stretch",
+            "name": "Shriram Gram Vikas Shikshan Sanstha, Vilasrao Deshmukh College of Engineering and Technology, Nagpur",
+            "photos": [
+              {
+                "height": 3672,
+                "html_attributions": [""],
+                "photo_reference": "",
+                "width": 6786
+              }
+            ],
+            "rating": "",
+            "status": "private",
+            "website":"www.vdcet.com",
+            "phone_no":281254,
+            "email":"vdcoe_ngp@hotmail.com",
+            "dte_code":4141,
+            "vicinity": "Hill Rd, Gokulpeth, Nagpur, Maharashtra 440010"
+          }
+    
+
+    ],
+    "status": "OK"
+  }

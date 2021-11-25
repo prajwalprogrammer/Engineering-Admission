@@ -1,25 +1,27 @@
-import antwerp from "./antwerp.json";
-import chicago from "./chicago.json";
-import toronto from "./toronto.json";
-import san_francisco from "./san_francisco.json";
+
 import pune from "./pune.json";
 import mumbai from "./mumbai.json";
 import latur from "./latur.json";
 import nanded from "./nanded.json";
 import ahmednagar from "./ahmednagar.json";
 import nashik from "./nashik.json";
-
+import all from "./all.json";
+import * as government from "./all.json";
+import * as Private from "./all.json";
+import * as privateAutonoumous from "./all.json";
+import nagpur from './nagpur.json';
 export const mocks = {
-  "51.219448,4.402464": antwerp,
-  "43.653225,-79.383186": toronto,
-  "41.878113,-87.629799": chicago,
-  "37.7749295,-122.4194155": san_francisco,
   "18.55518965423586,73.84844182703576": pune,
   "19.079602159944866,72.86744202594829":mumbai,
   "18.408857532829494,76.55924218853866":latur,
   "19.141412947311,77.32477855057344":nanded,
   "19.16169352033496,74.75435545526827":ahmednagar,
-  "19.99836975850918,73.78768516990837":nashik
+  "19.99836975850918,73.78768516990837":nashik,
+  "19.87667628941542,74.11179461706784":all,
+  "19.50312815658779,75.4392301953629":government,
+  "19.50312815658777,75.43923019536294":Private,
+  "18.46426300998177,73.86740976358865":privateAutonoumous,
+  "21.24489879240671,78.97808410127986":nagpur
 };
 
 export const mockImages = [

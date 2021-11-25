@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import Constants from "expo-constants";
 import { useFocusEffect } from "@react-navigation/core";
-
+import { FontAwesome } from '@expo/vector-icons';
 import ResturantsInfoCard from "../components/resturants-info-card.component";
 import styled from "styled-components/native";
 import { RestaurantContext } from "../../../services/restaurant/restaurant.context";
@@ -37,6 +37,11 @@ const LoadingContainer = styled(View)`
   top: 50%;
   left: 50%;
 `;
+const SearchContainer = styled(View)`
+  padding: ${(props) => props.theme.space[3]};
+  flex-Direction:row;
+
+`;
 const ResturantsScreen = ({ navigation }) => {
   const { restaurants, isLoading, iserror } = useContext(RestaurantContext);
   const { favourites } = useContext(FavouriteContext);
@@ -45,10 +50,13 @@ const ResturantsScreen = ({ navigation }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const searchCollage = (term) => {
     setSearchTerm(term)
-    console.log(term);
     setCollageList(
       restaurants.filter((clg) => {
-        return clg.name.toLowerCase().includes(term.toLowerCase());
+        // if(typeof clg === "string"){
+         return clg.name.toLowerCase().includes(term.toLowerCase());
+        // }else{
+        //    return (clg.dteCode+'').indexOf(term+'') > -1;
+        // }
       })
     );
   };
@@ -67,12 +75,14 @@ const ResturantsScreen = ({ navigation }) => {
           <Loading size={50} animating={true} color={Colors.blue300} />
         </LoadingContainer>
       )}
+      <SearchContainer style={{flexDirection:'row'}}>
       <Search
-        isFavouriteToggle={onToggled}
-        onFavouriteToggle={() => setOnToggled(!onToggled)}
+        onDrowerToggle={() => navigation.openDrawer()}
         Search={searchTerm}
         onSearch={(txt) => searchCollage(txt)}
       />
+      <FontAwesome name={onToggled ?"heart":"heart-o"} onPress={() => setOnToggled(!onToggled)} size={26} color={onToggled ?"red":"black"} style={{paddingTop:12,paddingLeft:12}} />
+      </SearchContainer>
       <SearchShortcutBar />
       {onToggled && (
         <FavouriteBar

@@ -5,6 +5,8 @@ export const FavouriteContext = createContext();
 export const FavouriteContextProvider = ({ children }) => {
   const { user } = useContext(AuthenticationContext);
   const [favourites, setFavourites] = useState([]);
+  const [isDarkTheme, setIsDarkTheme] = useState(false);
+
   const storeFavourites = async (value) => {
     try {
       const jsonValue = JSON.stringify(value);
@@ -40,7 +42,15 @@ export const FavouriteContextProvider = ({ children }) => {
   }, [favourites]);
   return (
     <FavouriteContext.Provider
-      value={{ favourites, addToFavourites: Add, removeFromFavourites: Remove }}
+      value={{
+        isDarkTheme,
+        favourites,
+        addToFavourites: Add,
+        removeFromFavourites: Remove,
+        toggleTheme: () => {
+          setIsDarkTheme(!isDarkTheme);
+        },
+      }}
     >
       {children}
     </FavouriteContext.Provider>

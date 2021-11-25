@@ -47,15 +47,15 @@ const RestuarantDetails = ({ route, navigation }) => {
   const showAlert = ({ capRound = "cap1.bundle", course = "dse.bundle" }) =>
     Alert.alert(
       "Select Round",
-      "",
+      "Cap Round List",
       [
         { text: "Cancel", style: "cancel" },
         {
           text: "Cap 1",
           onPress: () =>
             navigation.navigate("pdf", {
-              restaurant: restaurant,
-              course: [capRound, course],
+              code: restaurant.dteCode,
+              folder: "dsccutoff1",
             }),
           style: "default",
         },
@@ -63,8 +63,8 @@ const RestuarantDetails = ({ route, navigation }) => {
           text: "Cap 2",
           onPress: () =>
           navigation.navigate("pdf", {
-            restaurant: restaurant,
-            course: ["cap2.bundle", course],
+            code: restaurant.dteCode,
+            folder: "dsccutoff2",
           }),
           style: "default",
         },
@@ -76,7 +76,6 @@ const RestuarantDetails = ({ route, navigation }) => {
     );
 
     const Number = (num,type) => {
-      console.log('callNumber ----> ', num);
      
       Linking.canOpenURL(`http://`+num)
       .then(supported => {
@@ -135,7 +134,7 @@ const RestuarantDetails = ({ route, navigation }) => {
           <List.Item title="Second item" /> */}
         </List.Accordion>
         <List.Accordion
-          title="Cut off"
+          title={<Text variant="hint">Cut Off</Text>}
           left={(props) => <List.Icon {...props} icon="bread-slice" />}
           expanded={breakfastExpanded}
           onPress={() => setBreakfastExpanded(!breakfastExpanded)}
@@ -144,7 +143,7 @@ const RestuarantDetails = ({ route, navigation }) => {
           <List.Item title="DSY" onPress={showAlert} />
         </List.Accordion>
         <List.Item
-          title="Fee Structure"
+          title={<Text variant="hint">Fees Structure</Text>}
           left={(props) => <List.Icon {...props} icon="bread-slice" />}
           expanded={lunchExoanded}
           onPress={() => navigation.navigate("pdf", { restaurant: restaurant })}
@@ -153,7 +152,7 @@ const RestuarantDetails = ({ route, navigation }) => {
         
         <List.Section>
           <List.Item
-            title="Placement"
+            title={<Text variant="hint">Placement</Text>}
             left={(props) => <List.Icon {...props} icon="bread-slice" />}
             onPress={() => {}}
           />
