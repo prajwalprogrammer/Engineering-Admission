@@ -14,7 +14,11 @@ const Search = ({  onDrowerToggle, Search, onSearch }) => {
   // useEffect(() => {
   //   setSearchTerm(keyword);
   // }, [keyword]);
-
+  const textChanged =(txt) =>{
+    
+    setSearchTerm(txt);
+    onSearch(searchTerm);
+  }
   return (
     <>
       <Searchbar
@@ -23,8 +27,9 @@ const Search = ({  onDrowerToggle, Search, onSearch }) => {
         placeholder="Search for a Collage"
         value={searchTerm}
         onSubmitEditing={() => onSearch(searchTerm)}
-        onChangeText={(text) => setSearchTerm(text)}
+        onChangeText={(text) => textChanged(text)}
         style={{width:'90%'}}
+        clearIcon={""}
       />
     </>
   );

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, ScrollView, Alert,Linking ,Pressable} from "react-native";
+import { View, ScrollView, Alert, Linking, Pressable } from "react-native";
 import { ActivityIndicator, Divider, List } from "react-native-paper";
 import WebView from "react-native-webview";
 import { Text } from "../../../components/typography/text.component";
@@ -8,23 +8,10 @@ import CollageInfoCard from "../components/CollageInfoCard";
 import LoadPDF from "../components/loadPDF";
 import PDFReader from "rn-pdf-reader-js";
 import ResturantsInfoCard from "../components/resturants-info-card.component";
+import { FontAwesome } from '@expo/vector-icons';
 
 const RestuarantDetails = ({ route, navigation }) => {
-  // const LoadPDF=()=>{
-  //   return(
-  //     <View style={{flex:1}}>
-  //           <Text variant="hint">hiwesgf</Text>
-  //           <Text variant="hint">hiwesgf</Text>
-
-  //           <Divider />
-  //           <Text variant="error">hiwesgf</Text>
-  //           <Divider />
-  //           <Text variant="error">hiwesgf</Text>
-  //           <Divider />
-  //         </View>
-
-  //   )
-  // }
+ 
   const { restaurant } = route.params;
   const [breakfastExpanded, setBreakfastExpanded] = useState(false);
   const [lunchExoanded, setLunchExoanded] = useState(false);
@@ -44,7 +31,7 @@ const RestuarantDetails = ({ route, navigation }) => {
     email,
   } = restaurant;
 
-  const showAlert = ({ capRound = "cap1.bundle", course = "dse.bundle" }) =>
+  const showAlert = () =>
     Alert.alert(
       "Select Round",
       "Cap Round List",
@@ -62,10 +49,10 @@ const RestuarantDetails = ({ route, navigation }) => {
         {
           text: "Cap 2",
           onPress: () =>
-          navigation.navigate("pdf", {
-            code: restaurant.dteCode,
-            folder: "dsccutoff2",
-          }),
+            navigation.navigate("pdf", {
+              code: restaurant.dteCode,
+              folder: "dsccutoff2",
+            }),
           style: "default",
         },
       ],
@@ -75,26 +62,25 @@ const RestuarantDetails = ({ route, navigation }) => {
       }
     );
 
-    const Number = (num,type) => {
-     
-      Linking.canOpenURL(`http://`+num)
-      .then(supported => {
+  const Number = (num, type) => {
+    Linking.canOpenURL(`http://` + num)
+      .then((supported) => {
         if (!supported) {
-          Alert.alert('Phone number is not available');
+          Alert.alert("Phone number is not available");
         } else {
           return Linking.openURL(`${type}:${num}`);
         }
       })
-      .catch(err => console.log(err));
-    };
+      .catch((err) => console.log(err));
+  };
   return (
     <SafeArea>
       <CollageInfoCard resturant={restaurant} />
       {/* <ResturantsInfoCard resturant={restaurant} /> */}
       <ScrollView>
-      <List.Accordion
+        <List.Accordion
           title={<Text variant="hint">Details</Text>}
-          left={(props) => <List.Icon {...props} icon="bread-slice" />}
+          left={(props) => <List.Icon {...props} icon="details" />}
           expanded={drinksExpanded}
           onPress={() => setDrinksExpanded(!drinksExpanded)}
         >
@@ -103,28 +89,34 @@ const RestuarantDetails = ({ route, navigation }) => {
               style={{ flexDirection: "row", justifyContent: "space-between" }}
             >
               <Text variant="hint">Status :</Text>
-             <Text variant="hint">{status}</Text>
+              <Text variant="hint">{status}</Text>
             </View>
             <Divider />
             <View
               style={{ flexDirection: "row", justifyContent: "space-between" }}
             >
               <Text variant="hint">Website :</Text>
-              <Pressable onPress={()=>Number(website,"http")}><Text variant="hint">{website}</Text></Pressable>
+              <Pressable onPress={() => Number(website, "http")}>
+                <Text variant="link">{website}</Text>
+              </Pressable>
             </View>
             <Divider />
             <View
               style={{ flexDirection: "row", justifyContent: "space-between" }}
             >
               <Text variant="hint">Phone No. :</Text>
-              <Pressable onPress={()=>Number(phoneNo,"tel")}><Text variant="hint">{phoneNo}</Text></Pressable>
+              <Pressable onPress={() => Number(phoneNo, "tel")}>
+                <Text variant="link">{phoneNo}</Text>
+              </Pressable>
             </View>
             <Divider />
             <View
               style={{ flexDirection: "row", justifyContent: "space-between" }}
             >
               <Text variant="hint">E-mail :</Text>
-              <Pressable onPress={()=>Number(email,"mailto")}><Text variant="hint">{email}</Text></Pressable>
+              <Pressable onPress={() => Number(email, "mailto")}>
+                <Text variant="link">{email}</Text>
+              </Pressable>
             </View>
             <Divider />
           </View>
@@ -135,26 +127,33 @@ const RestuarantDetails = ({ route, navigation }) => {
         </List.Accordion>
         <List.Accordion
           title={<Text variant="hint">Cut Off</Text>}
-          left={(props) => <List.Icon {...props} icon="bread-slice" />}
+          left={(props) => <List.Icon {...props} icon="paper-cut-vertical" />}
           expanded={breakfastExpanded}
           onPress={() => setBreakfastExpanded(!breakfastExpanded)}
         >
-          <List.Item title="CET" />
-          <List.Item title="DSY" onPress={showAlert} />
+          <List.Item title={<Text variant="label">B.E./B-Tech First Year</Text>} />
+          <List.Item title={<Text variant="label">B.E./B-Tech DSY</Text>} onPress={showAlert} />
         </List.Accordion>
         <List.Item
           title={<Text variant="hint">Fees Structure</Text>}
-          left={(props) => <List.Icon {...props} icon="bread-slice" />}
+          left={(props) => <List.Icon {...props} icon="disc" />}
           expanded={lunchExoanded}
-          onPress={() => navigation.navigate("pdf", { restaurant: restaurant })}
+          onPress={() =>
+            navigation.navigate("pdf", {
+              code: restaurant.dteCode,
+              folder: "feeStructure",
+            })
+          }
         ></List.Item>
 
-        
         <List.Section>
           <List.Item
             title={<Text variant="hint">Placement</Text>}
-            left={(props) => <List.Icon {...props} icon="bread-slice" />}
-            onPress={() => {}}
+            left={(props) => <List.Icon {...props} icon="map-marker" />}
+            onPress={() => {navigation.navigate("pdf", {
+              code: restaurant.dteCode,
+              folder: "placements",
+            })}}
           />
         </List.Section>
       </ScrollView>

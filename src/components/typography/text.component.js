@@ -20,6 +20,9 @@ const hint = (theme) => `
 const error = (theme) => `
     color: ${theme.colors.text.error};
 `;
+const link = (theme) => `
+    color: ${theme.colors.brand.primary};
+`;
 
 const caption = (theme) => `
     font-size: ${theme.fontSizes.caption};
@@ -38,6 +41,7 @@ const variants = {
   caption,
   error,
   hint,
+  link
 };
 
 export const Text = styled.Text`

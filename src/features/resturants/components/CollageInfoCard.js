@@ -43,7 +43,7 @@ const CollageInfoCard = (resturant) => {
 
         <Section>
           {typeof rating == "string" ? (
-            <Text varient="error">{ratingArray}</Text>
+            <Text variant="hint">{ratingArray}</Text>
           ) : (
             <Rating>
               {ratingArray.map((_, i) => (
@@ -54,7 +54,7 @@ const CollageInfoCard = (resturant) => {
                   height={20}
                 />
               ))}
-              <Text varient="caption">({rating})</Text>
+              <Text varient="hint">({rating})</Text>
             </Rating>
           )}
           <SectionEnd>

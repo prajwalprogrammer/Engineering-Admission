@@ -54,21 +54,52 @@ font-size:${(props) => props.theme.fontSizes.title}
           </View>
           <Divider style={{ marginTop: 10 }} />
           <Drawer.Section
-            title={<Section>DSE Admission 2020</Section>}
+            title={<Section>B.E/B-Tech Admission 2020</Section>}
             style={styles.drawerSection}
           >
             <ContentStyle
               label={() => <Title>Final Merit List</Title>}
               onPress={() => {
                 props.navigation.navigate("pdf", {
-                  code: "provisionalmeritlist",
-                  folder: "provisionalmeritlist",
+                  code: "cetmerit",
+                  folder: "cetmeritlist",
                 });
               }}
             />
             <ContentStyle
               label={() => <Title>Seat Matrix</Title>}
               onPress={() => {}}
+            />
+            <ContentStyle
+              label={() => <Title>Cap Round 1(2020)</Title>}
+              onPress={() => {}}
+            />
+            <ContentStyle
+              label={() => <Title>Cap Round 2(2020)</Title>}
+              onPress={() => {}}
+            />
+          </Drawer.Section>
+          <Drawer.Section
+            title={<Section>DSY Admission 2020</Section>}
+            style={styles.drawerSection}
+          >
+            <ContentStyle
+              label={() => <Title>Final Merit List</Title>}
+              onPress={() => {
+                props.navigation.navigate("pdf", {
+                  code: "finalmeritlist",
+                  folder: "provisionalmeritlist",
+                });
+              }}
+            />
+            <ContentStyle
+              label={() => <Title>Seat Matrix</Title>}
+              onPress={() => {
+                props.navigation.navigate("pdf", {
+                  code: "seatmatrix",
+                  folder: "seatmatrix",
+                });
+              }}
             />
             <ContentStyle
               label={() => <Title>Cap Round 1(2020)</Title>}

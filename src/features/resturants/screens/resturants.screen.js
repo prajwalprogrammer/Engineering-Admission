@@ -4,7 +4,6 @@ import {
   TouchableOpacity,
   SafeAreaView,
   StyleSheet,
-  Text,
   View,
 } from "react-native";
 import Constants from "expo-constants";
@@ -20,6 +19,7 @@ import { FavouriteContext } from "../../../services/favourite/favourite.context"
 import FadeInView from "../../../components/animations/fade.animation";
 import CollageInfoCard from "../components/CollageInfoCard";
 import SearchShortcutBar from "../../../components/searchShortcut/SearchBar.component";
+import { Text } from "../../../components/typography/text.component";
 const SafeArea = styled(SafeAreaView)`
   flex: 1;
   margin-top: ${Constants.statusBarHeight}px;
@@ -49,6 +49,11 @@ const ResturantsScreen = ({ navigation }) => {
   const [collageList, setCollageList] = useState(restaurants);
   const [searchTerm, setSearchTerm] = useState("");
   const searchCollage = (term) => {
+    // alert(term);
+    // if (term === "") {
+    //   alert("Please select")
+    //   setCollageList(restaurants);
+    // }
     setSearchTerm(term)
     setCollageList(
       restaurants.filter((clg) => {
@@ -93,6 +98,7 @@ const ResturantsScreen = ({ navigation }) => {
 
       <FlatList
         keyExtractor={(item) => item.name}
+        ListEmptyComponent={()=>!isLoading && <View style={{justifyContent:'center',alignItems:'center'}}><Text variant="error">Collage Not Found</Text></View>}
         renderItem={({ item }) => (
           <TouchableOpacity
             onPress={() =>

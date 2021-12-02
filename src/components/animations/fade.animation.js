@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { StyleSheet, Animated, Text, View } from "react-native";
 
-const FadeInView = ({ duration = 1500, ...props }) => {
+const FadeInView = ({ duration = 600, ...props }) => {
   const fadeAni = useRef(new Animated.Value(0)).current;
   useEffect(() => {
       Animated.timing(fadeAni,{
