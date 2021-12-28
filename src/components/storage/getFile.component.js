@@ -11,8 +11,7 @@ export const GetFile = (folder, code) => {
       return url.toString();
     })
     .catch((error) => {
-      console.log(error);
-      return error.message
+      return "Not Found";
     })
   )
 };

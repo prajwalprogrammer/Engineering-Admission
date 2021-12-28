@@ -38,7 +38,7 @@ const LoadingContainer = styled(View)`
   left: 50%;
 `;
 const SearchContainer = styled(View)`
-  padding: ${(props) => props.theme.space[3]};
+  padding: ${(props) => props.theme.space[2]};
   flex-Direction:row;
 
 `;
@@ -86,7 +86,7 @@ const ResturantsScreen = ({ navigation }) => {
         Search={searchTerm}
         onSearch={(txt) => searchCollage(txt)}
       />
-      <FontAwesome name={onToggled ?"heart":"heart-o"} onPress={() => setOnToggled(!onToggled)} size={26} color={onToggled ?"red":"black"} style={{paddingTop:12,paddingLeft:12}} />
+      <FontAwesome name={onToggled ?"heart":"heart-o"} onPress={() => setOnToggled(!onToggled)} size={26} color={onToggled ?"red":"black"} style={{paddingTop:20,paddingLeft:12}} />
       </SearchContainer>
       <SearchShortcutBar />
       {onToggled && (

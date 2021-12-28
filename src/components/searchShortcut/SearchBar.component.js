@@ -54,42 +54,18 @@ const SearchShortcutBar = () => {
             borderRadius: 35,
             backgroundColor: "#ffffff",
             padding: 8,
-            
           }}
           innerBorderStyle={{ width: 6, color: "transparent" }}
           containerStyle={{
             //borderRadius: 35,
             backgroundColor: "transparent",
             borderColor: "transparent",
-
           }}
           selectedButtonStyle={{
             backgroundColor: "#757575",
             borderColor: "#262626",
           }}
         />
-
-        {/* {Shortcuts.map((Region) => {
-          const key = Region;
-          return (
-            <Spacer key={key} position="left" size="medium">
-              <TouchableOpacity
-                onPress={() =>
-                  onNavigate("ResturantDetails", { restaurant: favourite })
-                }
-              >
-              </TouchableOpacity>
-              <View
-                style={{
-                  borderRadius: 35,
-                  backgroundColor: "white",
-                }}
-              >
-                <Name>{Region}</Name>
-              </View>
-            </Spacer>
-          );
-        })} */}
       </ScrollView>
     </FavouriteWrapper>
   );

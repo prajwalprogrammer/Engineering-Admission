@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { StyleSheet, Dimensions, View } from "react-native";
-import { ActivityIndicator, Colors,ProgressBar } from "react-native-paper";
+import { StyleSheet, Dimensions, View,Text } from "react-native";
+import { ActivityIndicator, Colors, ProgressBar } from "react-native-paper";
 import Pdf from "react-native-pdf";
+import { LinearProgress } from "react-native-elements";
+
 import { GetFile } from "../../../components/storage/getFile.component";
 export const LoadPDF = ({ route }) => {
   const { code, folder } = route.params;
@@ -10,14 +12,13 @@ export const LoadPDF = ({ route }) => {
 
   //   const {dteCode}=restaurant
   const [source, setsource] = useState(null);
-  useEffect(async() => {
-   await GetFile(folder,code).then((url) =>  
-   setsource({
-    uri: url,
-    cache: true,
-  }));
-   
-    // setsource({ uri: file, cache: true });
+  useEffect(async () => {
+    await GetFile(folder, code).then((url) =>
+      setsource({
+        uri: url,
+        cache: true,
+      })
+    );
   }, []);
   useEffect(() => {
     console.log(source);
@@ -33,15 +34,20 @@ export const LoadPDF = ({ route }) => {
   return (
     <View style={styles.container}>
       {source ? (
-        <Pdf
-          source={source}
-          onError={(error) => {
-            console.log("fgf", error);
-          }}
-          onLoadProgress={(progress) => <ProgressBar progress={progress} color={Colors.red800} />}
-          style={styles.pdf}
-        />
-      ):(<ActivityIndicator size={50} animating={true} color={Colors.blue300} />)}
+        source.uri == "Not Found" ? (
+          <Text>Document not found</Text>
+        ) : (
+          <Pdf
+            source={source}
+            onError={(error) => {}}
+            activityIndicator={() => <Text>bfg</Text>}
+            onLoadProgress={() => <LinearProgress color="primary" />}
+            style={styles.pdf}
+          />
+        )
+      ) : (
+        <ActivityIndicator size={50} animating={true} color={Colors.blue300} />
+      )}
     </View>
   );
 };

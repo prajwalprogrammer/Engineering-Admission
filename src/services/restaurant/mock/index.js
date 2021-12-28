@@ -10,6 +10,7 @@ import * as government from "./all.json";
 import * as Private from "./all.json";
 import * as privateAutonoumous from "./all.json";
 import nagpur from './nagpur.json';
+import amravati from './amravati.json';
 export const mocks = {
   "18.55518965423586,73.84844182703576": pune,
   "19.079602159944866,72.86744202594829":mumbai,
@@ -21,7 +22,8 @@ export const mocks = {
   "19.50312815658779,75.4392301953629":government,
   "19.50312815658777,75.43923019536294":Private,
   "18.46426300998177,73.86740976358865":privateAutonoumous,
-  "21.24489879240671,78.97808410127986":nagpur
+  "21.24489879240671,78.97808410127986":nagpur,
+  "20.70205857016696,77.33827429821929":amravati
 };
 
 export const mockImages = [

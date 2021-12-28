@@ -116,6 +116,19 @@ export const locations = {
         },
       ],
     },
+    amravati: {
+      results: [
+        {
+          geometry: {
+            location: {
+              lat: 20.70205857016696, 
+              lng: 77.33827429821929
+            },
+            
+          },
+        },
+      ],
+    },
     nashik: {
       results: [
         {

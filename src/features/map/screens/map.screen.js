@@ -32,8 +32,9 @@ export const MapScreen = ({ navigation }) => {
     setCollageList(restaurants);
     if (lat=="19.50312815658777" || lat=="19.50312815658779" || lat=="19.87667628941542") {
       setLatDelta(15)
-    }
-    else{
+    }else if(lat=="20.70205857016696"){
+      setLatDelta(5)
+    }else{
       setLatDelta(0.6)
     }
   }, [restaurants]);

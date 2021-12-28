@@ -15,7 +15,7 @@ const DrawerNavigator = () => {
             drawerContent={(props) => <DrawerContent {...props} />}
           >
             <Drawer.Screen name="Home" component={AppNavigation} />
-            <Drawer.Screen  name="pdf" component={LoadPDF} />
+            <Drawer.Screen  name="pdf" component={LoadPDF} options={{unmountOnBlur:true}} />
             <Drawer.Screen  name="favourites" component={FavouriteScreen} />
 
           </Drawer.Navigator>

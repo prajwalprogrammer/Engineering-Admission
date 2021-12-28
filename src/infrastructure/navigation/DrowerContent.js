@@ -41,20 +41,20 @@ font-size:${(props) => props.theme.fontSizes.title}
           <View style={styles.userInfoSection}>
             <View style={{ flexDirection: "row", marginTop: 15 }}>
               <Avatar.Image
-                source={{
-                  uri: "https://api.adorable.io/avatars/50/abott@adorable.png",
-                }}
+                source={require("../../../assets/icon.png")}
                 size={50}
               />
               <View style={{ marginLeft: 15, flexDirection: "column" }}>
-                <Section style={styles.title}>Meals To GO</Section>
+                <Section style={styles.title}>
+                  Engineering {"\n"} Admission
+                </Section>
                 <Caption style={styles.caption}>@prajwalachwale</Caption>
               </View>
             </View>
           </View>
           <Divider style={{ marginTop: 10 }} />
           <Drawer.Section
-            title={<Section>B.E/B-Tech Admission 2020</Section>}
+            title={<Section>B.E/B-Tech Admission 2021</Section>}
             style={styles.drawerSection}
           >
             <ContentStyle
@@ -68,19 +68,29 @@ font-size:${(props) => props.theme.fontSizes.title}
             />
             <ContentStyle
               label={() => <Title>Seat Matrix</Title>}
-              onPress={() => {}}
+              onPress={() => {
+                props.navigation.navigate("pdf", {
+                  code: "seatmatrixcet",
+                  folder: "cetseatmatrix",
+                });
+              }}
             />
             <ContentStyle
-              label={() => <Title>Cap Round 1(2020)</Title>}
-              onPress={() => {}}
+              label={() => <Title>Cap Round 1(2021)</Title>}
+              onPress={() => {
+                props.navigation.navigate("pdf", {
+                  code: "cetcapmain",
+                  folder: "cetmaincutoff1",
+                });
+              }}
             />
             <ContentStyle
-              label={() => <Title>Cap Round 2(2020)</Title>}
+              label={() => <Title>Cap Round 2(2021)</Title>}
               onPress={() => {}}
             />
           </Drawer.Section>
           <Drawer.Section
-            title={<Section>DSY Admission 2020</Section>}
+            title={<Section>DSY Admission 2021</Section>}
             style={styles.drawerSection}
           >
             <ContentStyle
@@ -102,11 +112,16 @@ font-size:${(props) => props.theme.fontSizes.title}
               }}
             />
             <ContentStyle
-              label={() => <Title>Cap Round 1(2020)</Title>}
-              onPress={() => {}}
+              label={() => <Title>Cap Round 1(2021)</Title>}
+              onPress={() => {
+                props.navigation.navigate("pdf", {
+                  code: "DSE_CAP1_CUTOFF",
+                  folder: "dsemaincutoff1",
+                });
+              }}
             />
             <ContentStyle
-              label={() => <Title>Cap Round 2(2020)</Title>}
+              label={() => <Title>Cap Round 2(2021)</Title>}
               onPress={() => {}}
             />
           </Drawer.Section>

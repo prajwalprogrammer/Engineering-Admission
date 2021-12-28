@@ -31,7 +31,7 @@ const RestuarantDetails = ({ route, navigation }) => {
     email,
   } = restaurant;
 
-  const showAlert = () =>
+  const showAlert = (course) =>
     Alert.alert(
       "Select Round",
       "Cap Round List",
@@ -42,7 +42,7 @@ const RestuarantDetails = ({ route, navigation }) => {
           onPress: () =>
             navigation.navigate("pdf", {
               code: restaurant.dteCode,
-              folder: "dsccutoff1",
+              folder:course,
             }),
           style: "default",
         },
@@ -51,7 +51,7 @@ const RestuarantDetails = ({ route, navigation }) => {
           onPress: () =>
             navigation.navigate("pdf", {
               code: restaurant.dteCode,
-              folder: "dsccutoff2",
+              folder: course,
             }),
           style: "default",
         },
@@ -131,8 +131,8 @@ const RestuarantDetails = ({ route, navigation }) => {
           expanded={breakfastExpanded}
           onPress={() => setBreakfastExpanded(!breakfastExpanded)}
         >
-          <List.Item title={<Text variant="label">B.E./B-Tech First Year</Text>} />
-          <List.Item title={<Text variant="label">B.E./B-Tech DSY</Text>} onPress={showAlert} />
+          <List.Item title={<Text variant="label">B.E./B-Tech First Year</Text>} onPress={()=>showAlert("cetcutoff1")} />
+          <List.Item title={<Text variant="label">B.E./B-Tech DSY</Text>} onPress={()=>showAlert("dsccutoff1")} />
         </List.Accordion>
         <List.Item
           title={<Text variant="hint">Fees Structure</Text>}
