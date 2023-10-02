@@ -1904,7 +1904,380 @@
         "email":"sumaneducationaltrust@gmail.com",
         "dte_code":3353	,
         "vicinity": "Dilkap Mamdapur, Neral, Karjat, Maharashtra 410101"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.957293334250245, 
+            "lng": 77.75691180114126
+          }
+        },
+        "icon": "data:image/jpeg;base64,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",
+        "name": "Government College of Engineering, Amravati",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "Government",
+        "website":"www.gcoea.ac.in",
+        "phone_no":2531929,
+        "email":"principal@gcoea.ac.in",
+        "dte_code":1002,
+        "vicinity": "Gcoea, Amravati, Maharashtra 444604"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.937110092735907, 
+            "lng": 77.80487737045777
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOW1dFTKg_ygcLVnUFOVuqx2pNn1aZq2kSIvc_6=w408-h306-k-no",
+        "name": "Sant Gadge Baba Amravati University,Amravati",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "private",
+        "website":"www.sgbau.ac.in",
+        "phone_no":2662173,
+        "email":"reg@sgbau.ac.in",
+        "dte_code":1005,
+        "vicinity": "Camp Area, Near Tapovan Gate, Amravati, Maharashtra 444602"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.413208116773202, 
+            "lng": 78.13562227044945
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOu8doSIKzeDdoyCiWlytHb2ngkuLMplbdeSlaC=w408-h287-k-no",
+        "name": "Government College of Engineering,Yavatmal",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "government",
+        "website":"www.gcoey.ac.in",
+        "phone_no":7232243,
+        "email":"office.gpyavatmal@dtemaharashtra.gov.in",
+        "dte_code":1012,
+        "vicinity": "Naringe Nagar, Pimpalgaon, Yavatmal, Maharashtra 445001"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.780574094922557, 
+            "lng":  76.67804785511366
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOVSk1OmogodbqZ16fB2PaO0egSWm_gh4Yf4n-Y=w408-h544-k-no",
+        "name": "Shri Sant Gajanan Maharaj College of Engineering,Shegaon",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "private",
+        "website":"www.ssgmce.org",
+        "phone_no":8669638081,
+        "email":"principal@ssgmce.ac.in",
+        "dte_code":1101,
+        "vicinity": "ssgmce, SBI Colony, Shegaon, Maharashtra 444203"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.85490170867957, 
+            "lng": 77.75221821278568
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipP0soc9e5OLXZPSYbea28rcJQsF4r_HLk4si5hj=w408-h517-k-no",
+        "name": "Prof. Ram Meghe Institute of Technology & Research, Amravati",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "private",
+        "website":"www.mitra.ac.in",
+        "phone_no":2681246,
+        "email":"principal@mitra.ac.in",
+        "dte_code":1105,
+        "vicinity": "Prof. Ram Meghe Square, Anjangaon Bari Rd, Badnera, Amravati, Maharashtra 444701"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.98778598959404, 
+            "lng": 77.75727756066026
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipMDTl-Jc6hFJvShFZhmQ49QdO5OslY4sPjdG2t-=w408-h725-k-no",
+        "name": "P. R. Pote (Patil) Education & Welfare Trust's Group of Institution(Integrated Campus), Amravati",
+        "photos": [
+          {
+            "height": 3672,
+            "html_attributions": [""],
+            "photo_reference": "",
+            "width": 6786
+          }
+        ],
+        "rating": "",
+        "status": "private",
+        "website":"www.prpcem.org",
+        "phone_no":2970435,
+        "email":"prpotepatilcollege@gmail.com",
+        "dte_code":1107,
+        "vicinity": "Pote Estate, Kathora Rd, Amravati, Maharashtra 444602"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.882155385713155, 
+            "lng": 77.74715153977374
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipMiWypOtGrE1Weqw_ZRBwbjIeadt4tThFYAMlOg=w408-h886-k-no",
+        "name": "Sipna Shikshan Prasarak Mandal College of Engineering & Technology, Amravati",
+        "rating": "",
+        "status": "private",
+        "website":"www.sipnaengg.ac.in",
+        "phone_no":2950660,
+        "email":"sipnaoffice@gmail.com",
+        "dte_code":1114,
+        "vicinity": "NH 6, Opposite Nemani Godown, Nimbora, Badnera Rd, Amravati, Maharashtra 444701"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.70503955275700, 
+            "lng": 77.09308471463105
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipO4kh05zSWsERCQFb7iVXWaZOjT7UZFwsiJ7NZQ=w408-h271-k-no",
+        "name": "Shri Shivaji Education Society's College of Engineering and Technology, Akola",
+        "rating": "",
+        "status": "private",
+        "website":"www.coeta.ac.in",
+        "phone_no":2259069,
+        "email":"principalcoeta@gmail.com",
+        "dte_code":1116,
+        "vicinity": "Babhulgaon (Jh) N.H. No-6, Nagpur Road, Akola, Maharashtra 444104"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":19.8939061751439, 
+            "lng": 77.54527361092278
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipNn5XXP52EeVJpACjPYUmVb9sKt6DUPfB83VLaF=w408-h306-k-no",
+        "name": "Janata Shikshan Prasarak Mandal's Babasaheb Naik College Of Engineering, Pusad",
+        "rating": "",
+        "status": "private",
+        "website":"www.bncoepusad.ac.in",
+        "phone_no":245229,
+        "email":"principal@bncoepusad.ac.in",
+        "dte_code":1117,
+        "vicinity": "Karla Road, Pusad, Maharashtra 445215"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.357537543246842, 
+            "lng": 76.22361628209455
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipPyF_fnaklRPmF5saPmcECL7FMO63_0YQvT0sHD=w408-h271-k-no",
+        "name": "Paramhansa Ramkrishna Maunibaba Shikshan Santha's , Anuradha Engineering College, Chikhali",
+        "rating": "",
+        "status": "private",
+        "website":"www.aecc.ac.in",
+        "phone_no":242063,
+        "email":"annprincipal55@gmail.com",
+        "dte_code":1119,
+        "vicinity": "Sakegaon Road,Chikhli, CHIKHLI,Dist Buldana Maharashtra, Maharashtra 443201"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.39443728152805, 
+            "lng": 78.08740958394289
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipNmIb79fpwSjZvaXXBvRc6weGBZowI4-65k-Axt=w408-h272-k-no",
+        "name": "Jawaharlal Darda Institute of Engineering and Technology, Yavatmal",
+        "rating": "",
+        "status": "private",
+        "website":"www.jdiet.ac.in",
+        "phone_no":7447797964,
+        "email":"office@jdiet.ac.in",
+        "dte_code":1120,
+        "vicinity": "Lohara, MIDC, Yavatmal, Maharashtra 445001"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.92706175640477, 
+            "lng": 77.74298009744525
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOF2ZyolD5mLYCWq8030wc1xioD172ggIY4BOwg=w463-h240-k-no",
+        "name": "Shri Hanuman Vyayam Prasarak Mandals College of Engineering & Technology, Amravati",
+        "rating": "",
+        "status": "private",
+        "website":"www.hvpmcoet.in",
+        "phone_no":2563422,
+        "email":"principal@hvpmcoet.in",
+        "dte_code":1121,
+        "vicinity": "Hanuman Vyayam Nagar, H.V.P. Mandal, Amravati, Maharashtra 444605"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.943208087118112, 
+            "lng": 77.84385239374998
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOVZGfRm97iwJx4RfGyuF-2WW7DAR5pTvrNnYb9=w408-h306-k-no",
+        "name": "Dr.Rajendra Gode Institute of Technology & Research, Amravati",
+        "rating": "",
+        "status": "private",
+        "website":"www.drgitr.com",
+        "phone_no":2970275,
+        "email":"principal_coe@rediffmail.com",
+        "dte_code":1123,
+        "vicinity": "Mardi Road, Amravati, Maharashtra 444602"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.519016660437725, 
+            "lng": 76.17394253976796
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipMbPClBJQTIlEmlzfwQEcP6f8lY7yMHfpf-jGEu=w408-h305-k-no",
+        "name": "Dwarka Bahu Uddeshiya Gramin Vikas Foundation, Rajarshri Shahu College of Engineering, Buldhana",
+        "rating": "",
+        "status": "private",
+        "website":"www.rsce.ac.in",
+        "phone_no":287167,
+        "email":"rsc_engg@rediffmail.com",
+        "dte_code":1125,
+        "vicinity": "Near Palna Ghar, Sagwan Road, Buldana, Maharashtra 443001"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.95948598401017, 
+            "lng": 77.50198979744579
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipMixzBZQgKEV5XjFZsqqD0soEI2rBm100IsTAB_=w408-h306-k-no",
+        "name": "Shri. Dadasaheb Gawai Charitable Trust's Dr. Smt. Kamaltai Gawai Institute of Engineering & Technology, Darapur, Amravati",
+        "rating": "",
+        "status": "private",
+        "website":"www.kgiet.ac.in",
+        "phone_no":7720032432,
+        "email":"principal.kgiet@gmail.com",
+        "dte_code":1126,
+        "vicinity": "Darapur, Daryapur, Amravati, Maharashtra 444814"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.354382211230398, 
+            "lng":  78.0863778514114
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOe0wOSl5lQGHwUIj3hqFjHWsjUpbCfKrozinmb=w722-h240-k-no",
+        "name": "Jagadambha Bahuuddeshiya Gramin Vikas Sanstha's Jagdambha College of Engineering and Technology, Yavatmal",
+        "rating": "",
+        "status": "private",
+        "website":"www.jcoet.org",
+        "phone_no":244226,
+        "email":"principal@jcoet.org",
+        "dte_code":1127,
+        "vicinity": "S.No 167/1, 167/2 & 163, Arni Rd, Near Tandoor Garden, Kinhi, Yavatmal, Maharashtra 445105"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.857279663794326, 
+            "lng": 77.75040587674096
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipOqoJi7w7-N5G0t33-J00muSIA-mOpBx60rGXwC=w408-h304-k-no",
+        "name": "Prof Ram Meghe College of Engineering and Management, Badnera",
+        "rating": "",
+        "status": "private",
+        "website":"www.prmceam.ac.in",
+        "phone_no":2580373,
+        "email":"principal@prmceam.ac.in",
+        "dte_code":1128,
+        "vicinity": "New Express Highway, Ram Meghe Square, Badnera, Amravati, Maharashtra 444701"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.47907080657769, 
+            "lng": 76.21022097414594
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipNudXqZh1KfKpR0TzeFqST5wcR4nImZjA7h1WIm=w408-h306-k-no",
+        "name": "Pankaj Laddhad Institute Of Technology And Management Studies",
+        "rating": "",
+        "status": "private",
+        "website":"www.plit.ac.in",
+        "phone_no":8080237640,
+        "email":"plitprincipal@gmail.com",
+        "dte_code":1130,
+        "vicinity": "Chikhli Road, Yelgaon, Buldana, Maharashtra 443001"
+      },
+      {
+        "geometry": {
+          "location": {
+            "lat":20.180842879478128, 
+            "lng": 77.0578976183182
+          }
+        },
+        "icon": "https://lh5.googleusercontent.com/p/AF1QipPOAxnMUCkAZlmsmc-fN7Op6HLu0Odx4FT3-z-p=w868-h240-k-no",
+        "name": "Sanmati Engineering College, Sawargaon Barde, Washim",
+        "rating": "",
+        "status": "private",
+        "website":"www.sanmati.in",
+        "phone_no":234302,
+        "email":"engineering@sanmati.in",
+        "dte_code":1180,
+        "vicinity": "11 Km Stone, State Highway 161, Washim Malegaon Road, Washim, Maharashtra 444505"
       }
+    
+
 
 
     ],

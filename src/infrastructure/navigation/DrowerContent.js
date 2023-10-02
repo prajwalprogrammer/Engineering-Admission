@@ -122,7 +122,12 @@ font-size:${(props) => props.theme.fontSizes.title}
             />
             <ContentStyle
               label={() => <Title>Cap Round 2(2021)</Title>}
-              onPress={() => {}}
+              onPress={() => {
+                props.navigation.navigate("pdf", {
+                  code: "DSE_CAP_II_CUTOFF",
+                  folder: "dsemaincutoff1",
+                });
+              }}
             />
           </Drawer.Section>
           <Drawer.Section title={<Section>Preferences</Section>}>
